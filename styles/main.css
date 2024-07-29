@@ -15,6 +15,8 @@ html{
     body{
         --color1: #084B83;
         --color2: #BBE6E4;
+        height: 100%;
+        width: 100%;
 
         .btn {
             background-color: var(--color2);
@@ -26,5 +28,106 @@ html{
             height: 40px;
         }
 
+        main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            nav{
+                width: 100%;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                .return{
+                    padding-left: 16px;
+                    &:not(.hide){
+                        display: flex;
+                    }
+                    align-items: center;
+                    &:hover{
+                        font-weight: 800;
+                    }
+                }
+            }
+            .main_planning{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .title{
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    font-weight: 800;
+                }
+                .day{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    font-size: 20px;
+                    &:hover{
+                        font-weight: 800;
+                    }
+                    .fa-solid{
+                        font-size: 16px;
+                        /* margin: 8px; */
+                    }
+                }
+            }
+            .details{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .title{
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 28px;
+                    font-weight: 800;
+                    .fa-solid{
+                        font-size: 16px;
+                        margin: 8px;
+                    }
+                }
+                .step{
+                    &.optionnal{
+                        font-style: italic;
+                    }
+                    padding: 20px 40px;
+                    .step-title{
+                        font-size: 18px;
+                        font-weight: 600;
+                        .step-hours{
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .hide{
+                display: none;
+            }
+            .fa-solid{
+                color: black;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        
     }
 }
