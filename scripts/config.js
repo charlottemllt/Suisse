@@ -779,7 +779,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Randonnée et baignade",
-                "description": "Le Pic Chaussy – Canton de Vaud, 7km ~ 4h",
+                "description": "Le Pic Chaussy - Canton de Vaud, 7km ~ 4h",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+Lioson+d%E2%80%99en+Bas/@46.3905098,7.1192715,15.59z/data=!4m6!3m5!1s0x478e9316c957f6bf:0xf4617abfc31eed90!8m2!3d46.3921561!4d7.1178562!16s%2Fg%2F11f89lgr27?coh=164777&entry=tt&shorturl=1",
                     "text": "Parking"
