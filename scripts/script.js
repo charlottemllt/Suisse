@@ -73,6 +73,28 @@ function feedDetailedPage(i, dateObj){
         }
         div.appendChild(step_div)
     })
+
+    let previous_btn = document.getElementById("previous")
+    let next_btn = document.getElementById("next")
+    console.log(`i: ${i}`)
+    console.log(`nb_dates: ${nb_dates}`)
+    if (i + 1 == nb_dates){
+        // hide next button
+        next_btn.classList.add('hide')
+        // display previous button
+        previous_btn.classList.remove('hide')
+    }
+    else if (i == 0){
+        // display next button
+        next_btn.classList.remove('hide')
+        // hide previous button
+        previous_btn.classList.add('hide')
+    }
+    else{
+        // display both buttons
+        next_btn.classList.remove('hide')
+        previous_btn.classList.remove('hide')
+    }
 }
 
 function createPlanning(){
@@ -93,7 +115,13 @@ function createPlanning(){
             feedDetailedPage(i, PLANNING[date])
             let return_btn = document.getElementById("retour")
             return_btn.classList.toggle("hide")
+            let nav_pages = document.getElementById("navigation_pages")
+            nav_pages.classList.toggle("hide")
             content_planning.classList.toggle("hide")
+            let details_div = document.getElementById("details")
+            details_div.classList.toggle("hide")
+            day_selected = i + 1
+            console.log(`day_selected: ${day_selected}`)
         })
     })
 }
@@ -103,14 +131,41 @@ function customizePages(){
 }
 
 function main() {
-    day_selected = ""
+    day_selected = -1
+    list_dates = Object.keys(PLANNING)
+    nb_dates = list_dates.length
+    console.log(`nb_dates : ${nb_dates}`)
     createPlanning()
     let return_btn = document.getElementById("retour")
     return_btn.addEventListener("click", () => {
         return_btn.classList.toggle("hide")
+        let nav_pages = document.getElementById("navigation_pages")
+        nav_pages.classList.toggle("hide")
         let div = document.getElementById("details")
         div.innerHTML = ""
         let content_planning = document.getElementById("content_planning")
         content_planning.classList.toggle("hide")
+        let details_div = document.getElementById("details")
+        details_div.classList.toggle("hide")
+        day_selected = -1
+    })
+
+    let next_btn = document.getElementById("next")
+    next_btn.addEventListener("click", () => {
+        console.log("next_btn event")
+        console.log(`day_selected: ${day_selected}`)
+        let next_date = list_dates[day_selected]
+        feedDetailedPage(day_selected, PLANNING[next_date])
+        day_selected = day_selected + 1
+        console.log(`day_selected: ${day_selected}`)
+    })
+    let previous_btn = document.getElementById("previous")
+    previous_btn.addEventListener("click", () => {
+        console.log("previous_btn event")
+        console.log(`day_selected: ${day_selected}`)
+        let previous_date = list_dates[day_selected - 2]
+        feedDetailedPage(day_selected - 2, PLANNING[previous_date])
+        day_selected = day_selected - 1
+        console.log(`day_selected: ${day_selected}`)
     })
 }
