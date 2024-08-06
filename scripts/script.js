@@ -63,7 +63,7 @@ function feedDetailedPage(i, dateObj){
         }
         if (Object.keys(step["parking"]).length != 0){
             step_div.innerHTML += `
-                <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><i class="fa-solid fa-square-parking"></i> ${step["parking"]["text"]}</a>
+                <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><div class="icon-parking">P</div> ${step["parking"]["text"]}</a>
             `
         }
         if (step["point_de_depart"] != ""){
@@ -95,6 +95,13 @@ function feedDetailedPage(i, dateObj){
         next_btn.classList.remove('hide')
         previous_btn.classList.remove('hide')
     }
+}
+
+function parkingIcon(){
+    let div = document.createElement('div')
+    div.classList = ["step-parking"]
+    div.innerHTML = "P"
+    return div
 }
 
 function createPlanning(){
