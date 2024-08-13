@@ -180,6 +180,19 @@ html{
                         }
                     }
                 }
+
+                .camping{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .camping-container{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
             }
             .navigation-pages{
                 display: flex;
@@ -249,7 +262,7 @@ html{
                         .date{
                             font-size: 16px;
                         }
-                        background-color: blue;
+                        /* background-color: blue; */
                     }
                 }
             }

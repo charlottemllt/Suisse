@@ -1,4 +1,4 @@
-function feedDetailedPage(i, dateObj){
+function feedDetailedPage(i, dateObj, campingObj){
     let div = document.getElementById("details")
     let planning_details = dateObj["planning"]
     div.innerHTML = ""
@@ -74,10 +74,56 @@ function feedDetailedPage(i, dateObj){
         div.appendChild(step_div)
     })
 
+    let camping_div = document.createElement("div")
+    camping_div.classList = ["camping"]
+    camping_div.innerHTML = `
+        <div class="camping-container name">
+            <i class="fa-solid fa-campground"></i>
+            <span class="camping-name">${campingObj["nom"]}</span>
+            <i class="fa-solid fa-campground"></i>
+        </div>
+    `
+    if (campingObj["point_gps"] !== ""){
+        camping_div.innerHTML += `
+            <div class="camping-container location">
+                <a href="${campingObj["point_gps"]}" class="camping-location" target="_blank">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
+            </div>
+        `
+    }
+
+    if (campingObj["site"] !== ""){
+        camping_div.innerHTML += `
+            <div class="camping-container website">
+                <a href="${campingObj["site"]}" class="camping-website" target="_blank">
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+            </div>
+        `
+    }
+    if (campingObj["adresse"] !== ""){
+        camping_div.innerHTML += `
+            <div class="camping-container address">
+                <i class="fa-solid fa-map-pin"></i>
+                <span class="camping-address">${campingObj["adresse"]}</span>
+            </div>
+        `
+    }
+    if (campingObj["telephone"] !== ""){
+        camping_div.innerHTML += `
+            <div class="camping-container phone">
+                <i class="fa-solid fa-phone"></i>
+                <span class="camping-phone">${campingObj["telephone"]}</span>
+            </div>
+        `
+    }
+        
+        
+    div.appendChild(camping_div)
+
     let previous_btn = document.getElementById("previous")
     let next_btn = document.getElementById("next")
-    console.log(`i: ${i}`)
-    console.log(`nb_dates: ${nb_dates}`)
     if (i + 1 == nb_dates){
         // hide next button
         next_btn.classList.add('hide')
@@ -119,7 +165,7 @@ function createPlanning(){
         let id_div = `day_${i+1}`
         let link_div = document.getElementById(id_div)
         link_div.addEventListener("click", () => {
-            feedDetailedPage(i, PLANNING[date])
+            feedDetailedPage(i, PLANNING[date], CAMPING[date])
             let return_btn = document.getElementById("retour")
             return_btn.classList.toggle("hide")
             let nav_pages = document.getElementById("navigation_pages")
@@ -128,7 +174,6 @@ function createPlanning(){
             let details_div = document.getElementById("details")
             details_div.classList.toggle("hide")
             day_selected = i + 1
-            console.log(`day_selected: ${day_selected}`)
         })
     })
 }
@@ -141,7 +186,6 @@ function main() {
     day_selected = -1
     list_dates = Object.keys(PLANNING)
     nb_dates = list_dates.length
-    console.log(`nb_dates : ${nb_dates}`)
     createPlanning()
     let return_btn = document.getElementById("retour")
     return_btn.addEventListener("click", () => {
@@ -159,20 +203,14 @@ function main() {
 
     let next_btn = document.getElementById("next")
     next_btn.addEventListener("click", () => {
-        console.log("next_btn event")
-        console.log(`day_selected: ${day_selected}`)
         let next_date = list_dates[day_selected]
-        feedDetailedPage(day_selected, PLANNING[next_date])
+        feedDetailedPage(day_selected, PLANNING[next_date], CAMPING[next_date])
         day_selected = day_selected + 1
-        console.log(`day_selected: ${day_selected}`)
     })
     let previous_btn = document.getElementById("previous")
     previous_btn.addEventListener("click", () => {
-        console.log("previous_btn event")
-        console.log(`day_selected: ${day_selected}`)
         let previous_date = list_dates[day_selected - 2]
-        feedDetailedPage(day_selected - 2, PLANNING[previous_date])
+        feedDetailedPage(day_selected - 2, PLANNING[previous_date], CAMPING[previous_date])
         day_selected = day_selected - 1
-        console.log(`day_selected: ${day_selected}`)
     })
 }
