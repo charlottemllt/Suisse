@@ -73,54 +73,54 @@ function feedDetailedPage(i, dateObj, campingObj){
         }
         div.appendChild(step_div)
     })
+    if (campingObj){
+        let camping_div = document.createElement("div")
+        camping_div.classList = ["camping"]
+        camping_div.innerHTML = `
+            <div class="camping-container name">
+                <i class="fa-solid fa-campground"></i>
+                <span class="camping-name">${campingObj["nom"]}</span>
+                <i class="fa-solid fa-campground"></i>
+            </div>
+        `
+        if (campingObj["point_gps"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container location">
+                    <a href="${campingObj["point_gps"]}" class="camping-location" target="_blank">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                </div>
+            `
+        }
 
-    let camping_div = document.createElement("div")
-    camping_div.classList = ["camping"]
-    camping_div.innerHTML = `
-        <div class="camping-container name">
-            <i class="fa-solid fa-campground"></i>
-            <span class="camping-name">${campingObj["nom"]}</span>
-            <i class="fa-solid fa-campground"></i>
-        </div>
-    `
-    if (campingObj["point_gps"] !== ""){
-        camping_div.innerHTML += `
-            <div class="camping-container location">
-                <a href="${campingObj["point_gps"]}" class="camping-location" target="_blank">
-                    <i class="fa-solid fa-location-dot"></i>
-                </a>
-            </div>
-        `
+        if (campingObj["site"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container website">
+                    <a href="${campingObj["site"]}" class="camping-website" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                </div>
+            `
+        }
+        if (campingObj["adresse"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container address">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <span class="camping-address">${campingObj["adresse"]}</span>
+                </div>
+            `
+        }
+        if (campingObj["telephone"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="camping-phone">${campingObj["telephone"]}</span>
+                </div>
+            `
+        }
+            
+        div.appendChild(camping_div)
     }
-
-    if (campingObj["site"] !== ""){
-        camping_div.innerHTML += `
-            <div class="camping-container website">
-                <a href="${campingObj["site"]}" class="camping-website" target="_blank">
-                    <i class="fa-solid fa-globe"></i>
-                </a>
-            </div>
-        `
-    }
-    if (campingObj["adresse"] !== ""){
-        camping_div.innerHTML += `
-            <div class="camping-container address">
-                <i class="fa-solid fa-map-pin"></i>
-                <span class="camping-address">${campingObj["adresse"]}</span>
-            </div>
-        `
-    }
-    if (campingObj["telephone"] !== ""){
-        camping_div.innerHTML += `
-            <div class="camping-container phone">
-                <i class="fa-solid fa-phone"></i>
-                <span class="camping-phone">${campingObj["telephone"]}</span>
-            </div>
-        `
-    }
-        
-        
-    div.appendChild(camping_div)
 
     let previous_btn = document.getElementById("previous")
     let next_btn = document.getElementById("next")
