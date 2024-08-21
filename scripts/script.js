@@ -176,7 +176,6 @@ function feedDetailedPage(i, dateObj, campingObj){
                     <i class="fa-solid fa-coins"></i>
                 </div>
             `
-
         div.appendChild(camping_div)
 
         let selection_itineraire_div = document.createElement("div")
