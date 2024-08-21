@@ -132,7 +132,7 @@ const PLANNING = {
                 "description": "1.25km ~ 40min",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+du+Lac+Sauvabelin/@46.5377654,6.6384619,18.17z/data=!4m9!1m2!2m1!1sparking!3m5!1s0x478c2f457a04a74b:0xa47f5b4e906f19d9!8m2!3d46.5384794!4d6.6392498!16s%2Fg%2F11sxwxz1x1?",
-                    "text": "Parking"
+                    "text": ""
                 },
                 "lien": {
                     "target": "https://footpathapp.com/routes/dadef2cf-f77d-45bc-903d-b7861ecf8e97",
@@ -207,7 +207,7 @@ const PLANNING = {
                 "description": "4.17km ~ 2h",
                 "parking": {
                     "target": "",
-                    "text": "Parking public Pury (1CHF/h)"
+                    "text": "Parking Pury (1CHF/h)"
                 },
                 "lien": {
                     "target": "https://footpathapp.com/routes/cfd0c428-f226-46f9-a0b3-5983e6e6480c",
@@ -422,7 +422,7 @@ const PLANNING = {
                 "description": "6.36km ~ 3h30",
                 "parking": {
                     "target": "https://www.google.com/maps/place/Mythenquai+21+Parking/@47.360617,8.530977,17z/data=!4m9!1m2!2m1!1sHafendamm+Enge+!3m5!1s0x479009fdb212ed13:0x120be27a09bc6119!8m2!3d47.360617!4d8.5357406!16s%2Fg%2F11gd67v5q4?entry=ttu",
-                    "text": "Parking au Hafendamm Enge (2CHF pour 4H -> max 4h)"
+                    "text": "Hafendamm Enge (2CHF pour 4H -> max 4h)"
                 },
                 "parking_alternatif": {
                     "target": "https://www.google.com/maps/place/Parkhaus+Urania/@47.3740073,8.536067,16z/data=!3m1!4b1!4m6!3m5!1s0x47900a07a0e69ae9:0x66986d53fe4febe8!8m2!3d47.3740038!4d8.5409379!16s%2Fg%2F12hkx4y6t?entry=ttu",
@@ -464,7 +464,7 @@ const PLANNING = {
                 "description": "Il faut se garer en bas et y aller en train (quelques CHF par personne)",
                 "parking": {
                     "target": "https://www.google.com/maps/@47.369739,8.4669919,3a,75y,326.64h,90.72t/data=!3m7!1e1!3m5!1sIToUiUh6YkyGzUZ4qPXibw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DIToUiUh6YkyGzUZ4qPXibw%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D326.64018498192837%26pitch%3D-0.7229516165196088%26thumbfov%3D90!7i13312!8i6656?coh=205410&entry=ttu",
-                    "text": "Parking"
+                    "text": ""
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Uitikon+Waldegg/@47.3659803,8.4628181,16.71z/data=!4m6!3m5!1s0x4790095d9439557b:0xad25dec13294491d!8m2!3d47.365925!4d8.46592!16s%2Fm%2F0h51ylw?entry=ttu",
@@ -613,7 +613,7 @@ const PLANNING = {
                 "description": "7km ~ 3h30",
                 "parking": {
                     "target": "https://www.google.com/maps/place/Wasserauen/@47.2860487,9.4255041,17z/data=!4m14!1m7!3m6!1s0x479b242f97be517d:0x5193f0e965cc9e96!2sSeealpsee!8m2!3d47.2685217!4d9.4007497!16s%2Fm%2F02ptxdx!3m5!1s0x479b2471dfc29379:0x549b6e0710d8e6bf!8m2!3d47.2868529!4d9.4296549!16s%2Fg%2F11jz5ftc52?entry=ttu",
-                    "text": "Parking"
+                    "text": ""
                 },
                 "lien": {
                     "target": "https://footpathapp.com/routes/eedc13be-7780-4e28-8339-2b5d373c7171",
@@ -782,7 +782,7 @@ const PLANNING = {
                 "description": "Le Pic Chaussy - Canton de Vaud, 7km ~ 4h",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+Lioson+d%E2%80%99en+Bas/@46.3905098,7.1192715,15.59z/data=!4m6!3m5!1s0x478e9316c957f6bf:0xf4617abfc31eed90!8m2!3d46.3921561!4d7.1178562!16s%2Fg%2F11f89lgr27?coh=164777&entry=tt&shorturl=1",
-                    "text": "Parking"
+                    "text": ""
                 },
                 "lien": {
                     "target": "https://www.samfaitvoyager.com/randonnees-suisse/",

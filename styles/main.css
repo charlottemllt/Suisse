@@ -118,6 +118,7 @@ html{
                     height: calc(100% - 64px);
                 }
                 overflow-y: auto;
+                align-items: center;
                 .title{
                     width: 100%;
                     height: 100px;
@@ -164,6 +165,7 @@ html{
                     .step-parking{
                         display: flex;
                         align-items: center;
+                        gap: 4px;
                         .icon-parking{
                             background: #004593;
                             width: 24px;
@@ -181,8 +183,10 @@ html{
                     }
                 }
 
-                .camping{
-                    display: flex;
+                .camping_container{
+                    &:not(.hide){
+                        display: flex;
+                    }
                     flex-direction: column;
                     width: 100%;
                     justify-content: flex-start;
@@ -192,6 +196,17 @@ html{
                         justify-content: center;
                         align-items: center;
                     }
+                }
+
+                .selection{
+                    &:not(.hide){
+                        display: flex;
+                    }
+                    width: 80px;
+                    height: 80px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
                 }
             }
             .navigation-pages{

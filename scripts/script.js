@@ -21,6 +21,9 @@ function feedDetailedPage(i, dateObj, campingObj){
     title_div.appendChild(subtitle_div)
     div.appendChild(title_div)
 
+    let steps_div = document.createElement("div")
+    steps_div.id = "steps"
+
     planning_details.forEach( (step) => {
         let step_div = document.createElement("div")
         step_div.classList = ["step"]
@@ -63,7 +66,7 @@ function feedDetailedPage(i, dateObj, campingObj){
         }
         if (Object.keys(step["parking"]).length != 0){
             step_div.innerHTML += `
-                <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><div class="icon-parking">P</div> ${step["parking"]["text"]}</a>
+                <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><span class="icon-parking">P</span> <span>${step["parking"]["text"]}</span></a>
             `
         }
         if (step["point_de_depart"] != ""){
@@ -71,11 +74,19 @@ function feedDetailedPage(i, dateObj, campingObj){
                 <div class="step-point_de_depart">${step["point_de_depart"]}</div>
             `
         }
-        div.appendChild(step_div)
+        steps_div.appendChild(step_div)
     })
+    div.appendChild(steps_div)
+
     if (campingObj){
+        let selection_camping_div = document.createElement("div")
+        selection_camping_div.classList = ["camping selection"]
+        selection_camping_div.id = "camping_selection"
+        selection_camping_div.innerHTML = '<i class="fa-solid fa-campground"></i>'
+        div.appendChild(selection_camping_div)
+
         let camping_div = document.createElement("div")
-        camping_div.classList = ["camping"]
+        camping_div.classList = ["camping_container hide"]
         camping_div.innerHTML = `
             <div class="camping-container name">
                 <i class="fa-solid fa-campground"></i>
@@ -83,6 +94,39 @@ function feedDetailedPage(i, dateObj, campingObj){
                 <i class="fa-solid fa-campground"></i>
             </div>
         `
+        if(
+            campingObj["heure_arrivee_min"] !== ""
+            &&
+            campingObj["heure_arrivee_max"] !== ""
+        ){
+            camping_div.innerHTML += `
+                <div class="camping-container hour">
+                    <span class="camping-hour">
+                        Arrivée entre ${campingObj["heure_arrivee_min"]} et ${campingObj["heure_arrivee_max"]}
+                    </span>
+                </div>
+            `
+        }
+        else if (campingObj["heure_arrivee_min"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container hour">
+                    <span class="camping-hour">
+                        Arrivée après ${campingObj["heure_arrivee_min"]}
+                    </span>
+                </div>
+            `
+        }
+        else if (campingObj["heure_arrivee_max"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container hour">
+                    <span class="camping-hour">
+                        Arrivée avant ${campingObj["heure_arrivee_max"]}
+                    </span>
+                </div>
+            `
+        }
+        
+
         if (campingObj["point_gps"] !== ""){
             camping_div.innerHTML += `
                 <div class="camping-container location">
@@ -118,8 +162,41 @@ function feedDetailedPage(i, dateObj, campingObj){
                 </div>
             `
         }
-            
+        camping_div.innerHTML += `
+                <div class="camping-container paiement">
+                    <i class="fa-solid fa-coins"></i>
+                    <span class="camping-paiement">
+                        <div>
+                            Déjà payé : ${campingObj["paye"]} ${campingObj["monnaie"]}
+                        </div>
+                        <div>
+                            Reste à payer : ${campingObj["reste_a_payer"]} ${campingObj["monnaie"]}
+                        </div>
+                    </span>
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+            `
+
         div.appendChild(camping_div)
+
+        let selection_itineraire_div = document.createElement("div")
+        selection_itineraire_div.classList = ["itineraire selection hide"]
+        selection_itineraire_div.id = "itineraire_selection"
+        selection_itineraire_div.innerHTML = '<i class="fa-solid fa-route"></i>'
+        div.appendChild(selection_itineraire_div)
+
+        selection_itineraire_div.addEventListener("click", () => {
+            selection_itineraire_div.classList.toggle("hide")
+            selection_camping_div.classList.toggle("hide")
+            steps_div.classList.toggle("hide")
+            camping_div.classList.toggle("hide")
+        })
+        selection_camping_div.addEventListener("click", () => {
+            selection_itineraire_div.classList.toggle("hide")
+            selection_camping_div.classList.toggle("hide")
+            steps_div.classList.toggle("hide")
+            camping_div.classList.toggle("hide")
+        })
     }
 
     let previous_btn = document.getElementById("previous")
