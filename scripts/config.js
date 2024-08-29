@@ -222,8 +222,8 @@ const PLANNING = {
                 "titre": "Baignade et pique-nique",
                 "description": "",
                 "parking": {
-                    "target": "",
-                    "text": "parking des piscines juste à côté ?"
+                    "target": "https://www.google.fr/maps/place/Parking+Des+Piscines/@46.9956914,6.9529507,601m/data=!3m1!1e3!4m6!3m5!1s0x478e0a2f12d78e07:0xabcc300f2263b72b!8m2!3d46.9968039!4d6.9527109!16s%2Fg%2F11c0rgg_l2?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Zone+de+libert%C3%A9+pour+les+chiens+avec+baignade/@46.9956914,6.9529507,17.83z/data=!4m14!1m7!3m6!1s0x478e0b98bc75ee13:0xb7f4f256cd2aa6e5!2sPort+Nid-du-Cr%C3%B4!8m2!3d46.9958428!4d6.949994!16s%2Fg%2F11hdj_hbn4!3m5!1s0x478e0b6f0f9781af:0x5d24e53db632112f!8m2!3d46.9965351!4d6.9549207!16s%2Fg%2F11svxk8tjd?entry=ttu",
@@ -468,7 +468,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Uitikon+Waldegg/@47.3659803,8.4628181,16.71z/data=!4m6!3m5!1s0x4790095d9439557b:0xad25dec13294491d!8m2!3d47.365925!4d8.46592!16s%2Fm%2F0h51ylw?entry=ttu",
-                    "text": "Gare"
+                    "text": "<i class='fa-solid fa-train'></i>"
                 },
                 "optionnel": false,
                 "point_de_depart": "",
@@ -560,16 +560,6 @@ const PLANNING = {
                 "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:30"
-            },
-            {
-                "titre": "Vieux pont d'Adrien (j'ai pas retrouvé...)",
-                "description": "sur la route",
-                "parking": {},
-                "lien": {},
-                "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "",
-                "heure_de_fin": ""
             },
             {
                 "titre": "Rorschach",

@@ -19,6 +19,7 @@ html{
         --height-phone: 56px;
         height: 100%;
         width: 100%;
+        scrollbar-width: none;
 
         /* Does not work for now */
         /* Hide scrollbar for Chrome, Safari and Opera */
@@ -76,6 +77,7 @@ html{
                     height: calc(100% - 64px);
                 }
                 overflow-y: auto;
+                scrollbar-width: none;
                 .title_container{
                     width: 100%;
                     height: 100px;
@@ -109,6 +111,28 @@ html{
                         margin: 4px;
                     }
                 }
+                .div_tente{
+                    margin-top: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    font-size: 28px;
+                    .video-tente{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 30%;
+                        gap: 8px;
+                        &:hover{
+                            font-weight: 800;
+                        }
+                    }
+                    .fa-solid{
+                        font-size: 16px;
+                        /* margin: 8px; */
+                    }
+                }
             }
             .details{
                 display: flex;
@@ -118,12 +142,15 @@ html{
                     height: calc(100% - 64px);
                 }
                 overflow-y: auto;
+                scrollbar-width: none;
                 align-items: center;
                 .title{
                     width: 100%;
                     height: 100px;
                     display: flex;
                     flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     .title-text{
                         width: 100%;
                         display: flex;
@@ -145,43 +172,49 @@ html{
                     }
                     
                 }
-                .step{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    &.optionnal{
-                        font-style: italic;
-                    }
-                    padding: 20px 40px;
-                    .step-title{
-                        font-size: 18px;
-                        font-weight: 600;
-                        .step-hours{
-                            font-weight: 400;
-                            font-size: 16px;
-                        }
-                    }
-                    .step-parking{
+                #steps{
+                    height: calc(100% - 180px);
+                    overflow-y: auto;
+                    scrollbar-width: none;
+                    .step{
                         display: flex;
+                        flex-direction: column;
+                        justify-content: center;
                         align-items: center;
-                        gap: 4px;
-                        .icon-parking{
-                            background: #004593;
-                            width: 24px;
-                            height: 24px;
-                            border: 4px solid white;
-                            outline: 1px solid #004593;
-                            border-radius: 4px;
-                            color: white;
+                        &.optionnal{
+                            font-style: italic;
+                        }
+                        padding: 20px 40px;
+                        .step-title{
+                            font-size: 18px;
+                            font-weight: 600;
+                            .step-hours{
+                                font-weight: 400;
+                                font-size: 16px;
+                            }
+                        }
+                        .step-parking{
                             display: flex;
-                            justify-content: center;
                             align-items: center;
-                            font-size: 20px;
-                            font-weight: 800;
+                            gap: 4px;
+                            .icon-parking{
+                                background: #004593;
+                                width: 24px;
+                                height: 24px;
+                                border: 4px solid white;
+                                outline: 1px solid #004593;
+                                border-radius: 4px;
+                                color: white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 20px;
+                                font-weight: 800;
+                            }
                         }
                     }
                 }
+                
 
                 .camping_container{
                     &:not(.hide){
@@ -189,6 +222,9 @@ html{
                     }
                     flex-direction: column;
                     width: 100%;
+                    height: calc(100% - 180px);
+                    overflow-y: auto;
+                    scrollbar-width: none;
                     justify-content: flex-start;
                     align-items: center;
                     .camping-container{
@@ -272,12 +308,13 @@ html{
             main{
                 .main_planning{
                     .day{
-                        height: 56px;
-                        font-size: 28px;
+                        /* height: 56px; */
+                        /* font-size: 28px; */
+                        height: 8%;
+                        font-size: 2.5rem;
                         .date{
                             font-size: 16px;
                         }
-                        /* background-color: blue; */
                     }
                 }
             }

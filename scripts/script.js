@@ -255,8 +255,23 @@ function createPlanning(){
 }
 
 function customizePages(){
-
+    let content_div = document.getElementById("content_planning")
+    let div_tente = document.createElement("div")
+    div_tente.classList = ["div_tente"]
+    div_tente.innerHTML = `
+        <a href='https://www.youtube.com/watch?v=GEPk6QMqWME' target='_blank' class="video-tente">
+            <i class='fa-brands fa-youtube'></i>
+            <span class="video-tente-text">Monter la tente</span>
+        </a>
+        <a href='https://www.youtube.com/watch?v=x-K4o8BlrqU' target='_blank' class="video-tente">
+            <i class='fa-brands fa-youtube'></i>
+            <span class="video-tente-text">Démonter la tente</span>
+        </a>
+    `
+    content_div.appendChild(div_tente)
 }
+
+
 
 function main() {
     day_selected = -1
@@ -289,4 +304,6 @@ function main() {
         feedDetailedPage(day_selected - 2, PLANNING[previous_date], CAMPING[previous_date])
         day_selected = day_selected - 1
     })
+    
+    customizePages()
 }
