@@ -254,6 +254,7 @@ function createPlanning(){
     })
 }
 
+
 function customizePages(){
     let content_div = document.getElementById("content_planning")
     let div_tente = document.createElement("div")
