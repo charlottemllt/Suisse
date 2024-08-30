@@ -15,8 +15,8 @@ html{
     body{
         --color1: #084B83;
         --color2: #BBE6E4;
-        --height-screen: 40px;
-        --height-phone: 56px;
+        /* --height-screen: 4rem;
+        --height-phone: 5.6rem; */
         height: 100%;
         width: 100%;
         scrollbar-width: none;
@@ -41,7 +41,7 @@ html{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 40px;
+            height: 4rem;
         }
 
         main{
@@ -53,13 +53,13 @@ html{
 
             nav{
                 width: 100%;
-                height: 40px;
+                height: 4rem;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
                 .return{
-                    padding-left: 16px;
-                    font-size: 24px;
+                    padding-left: 1.6rem;
+                    font-size: 2.4rem;
                     &:not(.hide){
                         display: flex;
                     }
@@ -74,24 +74,24 @@ html{
                 flex-direction: column;
                 width: 100%;
                 &:not(.hide){
-                    height: calc(100% - 64px);
+                    height: calc(100% - 6.4rem);
                 }
                 overflow-y: auto;
                 scrollbar-width: none;
                 .title_container{
                     width: 100%;
-                    height: 100px;
+                    height: 10rem;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
                     gap: 20px;
                     .drapeau_suisse{
-                        width: 100px;
-                        height: 66px;
+                        width: 10rem;
+                        height: 6.6rem;
                     }
                     .title{
-                        font-size: 40px;
+                        font-size: 4rem;
                         font-weight: 800;
                     }
                 }
@@ -99,37 +99,41 @@ html{
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    flex: 1;
+                    font-size: 2.5rem;
                     &:hover{
                         font-weight: 800;
                     }
                     .fa-solid{
-                        font-size: 16px;
+                        font-size: 1.6rem;
                         /* margin: 8px; */
                     }
                     .date{
-                        font-size: 14px;
-                        margin: 4px;
+                        font-size: 2rem;
+                        margin: 0.4rem;
                     }
                 }
                 .div_tente{
-                    margin-top: 80px;
+                    flex: 2;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    gap: 20px;
-                    font-size: 28px;
+                    gap: 2rem;
+                    font-size: 2.25rem;
                     .video-tente{
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 30%;
-                        gap: 8px;
+                        width: 35%;
+                        gap: 0.8rem;
+                        font-size: 2rem;
                         &:hover{
                             font-weight: 800;
                         }
                     }
-                    .fa-solid{
-                        font-size: 16px;
+                    .fa-brands{
+                        font-size: 1.6rem;
+                        color: red;
                         /* margin: 8px; */
                     }
                 }
@@ -139,14 +143,14 @@ html{
                 flex-direction: column;
                 width: 100%;
                 &:not(.hide){
-                    height: calc(100% - 64px);
+                    height: calc(100% - 6.4rem);
                 }
                 overflow-y: auto;
                 scrollbar-width: none;
                 align-items: center;
                 .title{
                     width: 100%;
-                    height: 100px;
+                    height: 10rem;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -156,10 +160,10 @@ html{
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 28px;
+                        font-size: 2.8rem;
                         font-weight: 800;
                         .fa-solid{
-                            font-size: 16px;
+                            font-size: 1.6rem;
                         }
                     }
                     .subtitle{
@@ -167,13 +171,18 @@ html{
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 20px;
+                        font-size: 2rem;
                         font-style: italic;
+                    }
+                    .baignade, .fa-person-swimming{
+                        width: 4rem;
+                        height: 4rem;
+                        font-size: 2.4rem;
                     }
                     
                 }
                 #steps{
-                    height: calc(100% - 180px);
+                    height: calc(100% - 18rem);
                     overflow-y: auto;
                     scrollbar-width: none;
                     .step{
@@ -181,26 +190,27 @@ html{
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
+                        font-size: 1.8rem;
                         &.optionnal{
                             font-style: italic;
                         }
-                        padding: 20px 40px;
+                        padding: 2rem 4rem;
                         .step-title{
-                            font-size: 18px;
+                            font-size: 2rem;
                             font-weight: 600;
                             .step-hours{
                                 font-weight: 400;
-                                font-size: 16px;
+                                font-size: 1.6rem;
                             }
                         }
                         .step-parking{
                             display: flex;
                             align-items: center;
-                            gap: 4px;
+                            gap: 0.4rem;
                             .icon-parking{
                                 background: #004593;
-                                width: 24px;
-                                height: 24px;
+                                width: 2.4rem;
+                                height: 2.4rem;
                                 border: 4px solid white;
                                 outline: 1px solid #004593;
                                 border-radius: 4px;
@@ -208,7 +218,7 @@ html{
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                font-size: 20px;
+                                font-size: 2rem;
                                 font-weight: 800;
                             }
                         }
@@ -222,11 +232,13 @@ html{
                     }
                     flex-direction: column;
                     width: 100%;
-                    height: calc(100% - 180px);
+                    height: calc(100% - 18rem);
                     overflow-y: auto;
                     scrollbar-width: none;
-                    justify-content: flex-start;
+                    justify-content: center;
                     align-items: center;
+                    gap: 2rem;
+                    font-size: 1.8rem;
                     .camping-container{
                         display: flex;
                         justify-content: center;
@@ -238,25 +250,25 @@ html{
                     &:not(.hide){
                         display: flex;
                     }
-                    width: 80px;
-                    height: 80px;
+                    width: 8rem;
+                    height: 8rem;
                     justify-content: center;
                     align-items: center;
-                    font-size: 40px;
+                    font-size: 4rem;
                 }
             }
             .navigation-pages{
                 display: flex;
                 justify-content: space-between;
-                margin-bottom: 16px;
+                margin-bottom: 1.6rem;
                 .nav{
                     display: flex;
                     align-items: center;
-                    font-size: 24px;
+                    font-size: 2.4rem;
                     &:hover{
                         font-weight: 800;
                     }
-                    padding: 0 16px;
+                    padding: 0 1.6rem;
                     &.hide{
                         height: 0;
                         overflow: hidden;
@@ -270,8 +282,8 @@ html{
             }
             .fa-solid{
                 color: black;
-                width: 32px;
-                height: 32px;
+                width: 3.2rem;
+                height: 3.2rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -284,7 +296,7 @@ html{
     }
 }
 
-@media screen and (width > 1200px) {
+/* @media screen and (width > 1200px) {
     html{
         body{
             main{
@@ -300,9 +312,9 @@ html{
             }
         }
     }
-}
+} */
 
-@media screen and (width <= 1200px) {
+/* @media screen and (width <= 1200px) {
     html{
         body{
             main{
@@ -310,7 +322,7 @@ html{
                     .day{
                         /* height: 56px; */
                         /* font-size: 28px; */
-                        height: 8%;
+                        /* height: 8%;
                         font-size: 2.5rem;
                         .date{
                             font-size: 16px;
@@ -320,4 +332,4 @@ html{
             }
         }
     }
-}
+} */

@@ -19,6 +19,12 @@ function feedDetailedPage(i, dateObj, campingObj){
     subtitle_div.classList = ["subtitle"]
     subtitle_div.innerHTML = dateObj["date_text"]
     title_div.appendChild(subtitle_div)
+    if (dateObj["baignade"]){
+        let baignade_div = document.createElement("div")
+        baignade_div.classList = ["baignade"]
+        baignade_div.innerHTML = '<i class="fa-solid fa-person-swimming"></i>'
+        title_div.appendChild(baignade_div)
+    }
     div.appendChild(title_div)
 
     let steps_div = document.createElement("div")

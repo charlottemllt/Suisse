@@ -37,7 +37,8 @@ const PLANNING = {
                 "heure_de_debut": "17:30",
                 "heure_de_fin": "18:00"
             }
-        ]
+        ],
+        "baignade": false
     },
     "08/09": {
         "ville_de_depart": "Annecy",
@@ -120,7 +121,8 @@ const PLANNING = {
                 "heure_de_debut": "13:30",
                 "heure_de_fin": "17:30"
             }
-        ]
+        ],
+        "baignade": false
     },
     "09/09": {
         "ville_de_depart": "Lausanne",
@@ -195,7 +197,8 @@ const PLANNING = {
                 "heure_de_debut": "17:30",
                 "heure_de_fin": "17:45",
             }
-        ]
+        ],
+        "baignade": false
     },
     "10/09": {
         "ville_de_depart": "Neufchâtel",
@@ -254,7 +257,8 @@ const PLANNING = {
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
             }
-        ]
+        ],
+        "baignade": true
     },
     "11/09": {
         "ville_de_depart": "Berne",
@@ -317,7 +321,8 @@ const PLANNING = {
                 "heure_de_debut": "16:30",
                 "heure_de_fin": "17:00"
             }
-        ]
+        ],
+        "baignade": false
     },
     "12/09": {
         "ville_de_depart": "Lucerne",
@@ -390,7 +395,8 @@ const PLANNING = {
                 "heure_de_debut": "16:30",
                 "heure_de_fin": "17:45"
             }
-        ]
+        ],
+        "baignade": false
     },
     "13/09": {
         "ville_de_depart": "Zurich",
@@ -452,7 +458,8 @@ const PLANNING = {
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "16:30"
             }
-        ]
+        ],
+        "baignade": true
     },
     "14/09": {
         "ville_de_depart": "Zurich",
@@ -508,7 +515,8 @@ const PLANNING = {
                 "heure_de_debut": "17:00",
                 "heure_de_fin": "18:00"
             }
-        ]
+        ],
+        "baignade": false
     },
     "15/09": {
         "ville_de_depart": "Constance",
@@ -591,7 +599,8 @@ const PLANNING = {
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             }
-        ]
+        ],
+        "baignade": false
     },
     "16/09": {
         "ville_de_depart": "Seealpsee",
@@ -657,7 +666,8 @@ const PLANNING = {
                 "heure_de_debut": "17:00",
                 "heure_de_fin": ""
             }
-        ]
+        ],
+        "baignade": true
     },
     "17/09": {
         "ville_de_depart": "Crestasee",
@@ -730,7 +740,8 @@ const PLANNING = {
                 "heure_de_debut": "18:00",
                 "heure_de_fin": "19:00"
             }
-        ]
+        ],
+        "baignade": false
     },
     "18/09": {
         "ville_de_depart": "Interlaken",
@@ -760,7 +771,8 @@ const PLANNING = {
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "16:00"
             }
-        ]
+        ],
+        "baignade": false
     },
     "19/09": {
         "ville_de_depart": "Ormont-dessous",
@@ -813,7 +825,8 @@ const PLANNING = {
                 "heure_de_debut": "17:00",
                 "heure_de_fin": "19:00"
             }
-        ]
+        ],
+        "baignade": true
     }
 }
 
