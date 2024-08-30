@@ -325,6 +325,5 @@ function main() {
         feedDetailedPage(day_selected - 2, PLANNING[previous_date], CAMPING[previous_date])
         day_selected = day_selected - 1
     })
-    
     customizePages()
 }
