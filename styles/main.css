@@ -158,6 +158,7 @@ html{
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    margin-top: 2rem;
                     .title-text{
                         width: 100%;
                         display: flex;
@@ -246,6 +247,9 @@ html{
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        .camping-paiement{
+                            text-align: center;
+                        }
                     }
                 }
 
