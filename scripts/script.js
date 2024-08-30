@@ -132,13 +132,34 @@ function feedDetailedPage(i, dateObj, campingObj){
             `
         }
         
-
-        if (campingObj["point_gps"] !== ""){
+        if (
+            campingObj["point_gps"] !== ""
+            &&
+            campingObj["adresse"] !== ""
+        ){
+            camping_div.innerHTML += `
+                <div class="camping-container location">
+                    <a href="${campingObj["point_gps"]}" class="camping-location" target="_blank">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="camping-address">${campingObj["adresse"]}</span>
+                    </a>
+                </div>
+            `
+        }
+        else if (campingObj["point_gps"] !== ""){
             camping_div.innerHTML += `
                 <div class="camping-container location">
                     <a href="${campingObj["point_gps"]}" class="camping-location" target="_blank">
                         <i class="fa-solid fa-location-dot"></i>
                     </a>
+                </div>
+            `
+        }
+        else if (campingObj["adresse"] !== ""){
+            camping_div.innerHTML += `
+                <div class="camping-container location">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <span class="camping-address">${campingObj["adresse"]}</span>
                 </div>
             `
         }
@@ -152,14 +173,7 @@ function feedDetailedPage(i, dateObj, campingObj){
                 </div>
             `
         }
-        if (campingObj["adresse"] !== ""){
-            camping_div.innerHTML += `
-                <div class="camping-container address">
-                    <i class="fa-solid fa-map-pin"></i>
-                    <span class="camping-address">${campingObj["adresse"]}</span>
-                </div>
-            `
-        }
+        
         if (campingObj["telephone"] !== ""){
             camping_div.innerHTML += `
                 <div class="camping-container phone">

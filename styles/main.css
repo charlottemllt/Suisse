@@ -250,6 +250,11 @@ html{
                         .camping-paiement{
                             text-align: center;
                         }
+                        .camping-location{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
                     }
                 }
 
