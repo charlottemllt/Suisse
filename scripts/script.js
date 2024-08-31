@@ -30,6 +30,7 @@ function feedDetailedPage(i, dateObj, campingObj){
     let steps_div = document.createElement("div")
     steps_div.id = "steps"
 
+    let details_keys = []
     planning_details.forEach( (step) => {
         let step_div = document.createElement("div")
         step_div.classList = ["step"]
@@ -80,22 +81,29 @@ function feedDetailedPage(i, dateObj, campingObj){
                 <div class="step-point_de_depart">${step["point_de_depart"]}</div>
             `
         }
-
+        
         if (step["details_key"] !== ""){
+            details_keys.push(step["details_key"])
             let details_html = ""
             let details = ITINERAIRES[step["details_key"]]
-            console.log(details)
             details.forEach( (detail) => {
-                details_html += `<span class="detail">${detail}</span>`
+                details_html += `
+                    <span class="detail">
+                        • ${detail}
+                    </span>
+                `
             })
+
             step_div.innerHTML += `
-                <div class="step-details" id="details_${step['details_key']}">
-                    Voir détails
-                    <i class="fa-solid fa-chevron-up" id="details_${step['details_key']}_chevron-up"></i>
-                    <i class="fa-solid fa-chevron-down hide" id="details_${step['details_key']}_chevron-down"></i>
-                </div>
-                <div class="step-details-content" id="details_${step['details_key']}_content">
-                    ${details_html}
+                <div class="step-details details_hidden" id="details_${step['details_key']}">
+                    <div class="step-details-title" id="details_${step['details_key']}-title">
+                        Voir détails
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="step-details-content" id="details_${step['details_key']}_content">
+                        ${details_html}
+                    </div>
                 </div>
             `
         }
@@ -256,6 +264,8 @@ function feedDetailedPage(i, dateObj, campingObj){
         next_btn.classList.remove('hide')
         previous_btn.classList.remove('hide')
     }
+
+    return details_keys
 }
 
 function parkingIcon(){
@@ -280,7 +290,7 @@ function createPlanning(){
         let id_div = `day_${i+1}`
         let link_div = document.getElementById(id_div)
         link_div.addEventListener("click", () => {
-            feedDetailedPage(i, PLANNING[date], CAMPING[date])
+            details_keys = feedDetailedPage(i, PLANNING[date], CAMPING[date])
             let return_btn = document.getElementById("retour")
             return_btn.classList.toggle("hide")
             let nav_pages = document.getElementById("navigation_pages")
@@ -288,6 +298,17 @@ function createPlanning(){
             content_planning.classList.toggle("hide")
             let details_div = document.getElementById("details")
             details_div.classList.toggle("hide")
+
+            details_keys.forEach( (key) => {
+                let id_details_div = `details_${key}`
+                let details_div = document.getElementById(id_details_div)
+                let id_details_title_div = `details_${key}-title`
+                let details_title_div = document.getElementById(id_details_title_div)
+                details_title_div.addEventListener("click", () => {
+                    details_div.classList.toggle("details_hidden")
+                })
+            })
+
             day_selected = i + 1
         })
     })
@@ -335,14 +356,33 @@ function main() {
     let next_btn = document.getElementById("next")
     next_btn.addEventListener("click", () => {
         let next_date = list_dates[day_selected]
-        feedDetailedPage(day_selected, PLANNING[next_date], CAMPING[next_date])
+        details_keys = feedDetailedPage(day_selected, PLANNING[next_date], CAMPING[next_date])
+        details_keys.forEach( (key) => {
+            let id_details_div = `details_${key}`
+            let details_div = document.getElementById(id_details_div)
+            let id_details_title_div = `details_${key}-title`
+            let details_title_div = document.getElementById(id_details_title_div)
+            details_title_div.addEventListener("click", () => {
+                details_div.classList.toggle("details_hidden")
+            })
+        })
         day_selected = day_selected + 1
     })
     let previous_btn = document.getElementById("previous")
     previous_btn.addEventListener("click", () => {
         let previous_date = list_dates[day_selected - 2]
-        feedDetailedPage(day_selected - 2, PLANNING[previous_date], CAMPING[previous_date])
+        details_keys = feedDetailedPage(day_selected - 2, PLANNING[previous_date], CAMPING[previous_date])
         day_selected = day_selected - 1
+        details_keys.forEach( (key) => {
+            let id_details_div = `details_${key}`
+            let details_div = document.getElementById(id_details_div)
+            let id_details_title_div = `details_${key}-title`
+            let details_title_div = document.getElementById(id_details_title_div)
+            details_title_div.addEventListener("click", () => {
+                details_div.classList.toggle("details_hidden")
+            })
+        })
     })
+
     customizePages()
 }

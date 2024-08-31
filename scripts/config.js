@@ -1151,7 +1151,7 @@ const ITINERAIRES = {
         "Le Cloître",
         "Les remparts",
         "La tour des prisons",
-        "Rue des moulins",
+        "Rue des Moulins",
         "Rue des Chavannes",
         "Rue du Neubourg",
         "Hôtel Dupeyrou",

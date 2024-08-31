@@ -176,17 +176,50 @@ html{
                             }
                         }
 
-                        .step-details, .step-details-content{
+                        .step-details{
                             display: flex;
+                            flex-direction: column;
                             justify-content: center;
                             align-items: center;
-
-                            .hide{
-                                display: none;
+                            width: 60%;
+                            .step-details-title{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;
+                                .fa-chevron-down{
+                                    display: none;
+                                }
                             }
-                        }
-                        .step-details-content{
-                            flex-direction: column;
+                            .step-details-content{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                width: 100%;
+                                background-color: #00000010;
+                                padding: 12px;
+                                gap: 4px;
+                                border-radius: 8px;
+                                .detail{
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                }
+                            }
+                            &.details_hidden{
+                                .fa-chevron-down{
+                                    display: flex;
+                                }
+                                .fa-chevron-up{
+                                    display: none;
+                                }
+                                .step-details-content{
+                                    display: none;
+                                }
+                            }
                         }
                     }
                 }
