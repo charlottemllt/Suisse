@@ -19,7 +19,10 @@ const PLANNING = {
                 "titre": "Visite de la Ville",
                 "details_key": "a",
                 "description": "4.3km ~ 2h",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parking+Marquisats/@45.8936904,6.1343983,17.87z/data=!4m6!3m5!1s0x478b8fe1888c219f:0x69072871f78e0f1a!8m2!3d45.892858!4d6.1364534!16s%2Fg%2F1hc0wc7sv?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Parking Marquisats"
+                },
                 "lien": {
                     "target": "https://footpathapp.com/routes/aa38885a-98a1-4c8b-8206-6185c9af2f9f",
                     "text": "<i class='fa-solid fa-route'></i>"
@@ -33,8 +36,14 @@ const PLANNING = {
                 "titre": "Basilique de la Visitation",
                 "details_key": "",
                 "description": "",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parking/@45.8922001,6.1277022,17z/data=!4m6!3m5!1s0x478b8f3932f36d93:0xbdfadf1e9508b543!8m2!3d45.8926785!4d6.1265617!16s%2Fg%2F11l2rj0jmd?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Basilique+de+la+Visitation/@45.8922037,6.1228313,17z/data=!3m1!4b1!4m6!3m5!1s0x478b8ffd60ae771b:0x85a1cdfa100906cc!8m2!3d45.8922001!4d6.1277022!16s%2Fm%2F0k5h3hr?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "point_de_depart": "",
                 "heure_de_debut": "17:30",
@@ -85,7 +94,10 @@ const PLANNING = {
                 "titre": "Visite du quartier Sécheron",
                 "details_key": "c",
                 "description": "",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/P%2BR+S%C3%A9cheron/@46.2212226,6.1428451,17z/data=!3m1!4b1!4m6!3m5!1s0x478c651e07bde997:0x8c564bdc1ed32703!8m2!3d46.2212189!4d6.14542!16s%2Fg%2F11crydp3gb?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "P + R Genève Sécheron (2CHF / h)"
+                },
                 "lien": {},
                 "optionnel": false,
                 "point_de_depart": "",
@@ -99,8 +111,14 @@ const PLANNING = {
                 "titre": "Bains des Pâquis",
                 "details_key": "",
                 "description": "",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parking+des+Alpes/@46.2097587,6.1439347,17z/data=!3m1!4b1!4m6!3m5!1s0x478c6526f3784193:0x52b5b5dc85a4ca1c!8m2!3d46.209755!4d6.1465096!16s%2Fg%2F11cn5rmshj?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Parking des Alpes ?"
+                },  
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Bains+des+P%C3%A2quis/@46.2103724,6.1542965,17z/data=!4m6!3m5!1s0x478c6525f98521ab:0x35d4551d2b7c350a!8m2!3d46.2103687!4d6.1541911!16s%2Fg%2F120_f_rt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "point_de_depart": "",
                 "heure_de_debut": "12:00",
@@ -110,8 +128,14 @@ const PLANNING = {
                 "titre": "Pique-nique",
                 "details_key": "",
                 "description": "Dans le Parc de La Grange ou dans le Parc des Eaux-vives",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/P%2BR+Gen%C3%A8ve-Plage/@46.2125699,6.1612933,14.96z/data=!4m6!3m5!1s0x478c6543bb6fe613:0x9b82f1461307fbc4!8m2!3d46.2120015!4d6.1727292!16s%2Fg%2F11bychj44b?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "P + R Genève Plage (2CHF / h)"
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Parc+des+Eaux-Vives/@46.2090712,6.1650779,17z/data=!3m1!4b1!4m6!3m5!1s0x478c6574030df13f:0xfb25fbb30ea9cb3f!8m2!3d46.2090675!4d6.1676528!16s%2Fg%2F122s8w9g?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "point_de_depart": "",
                 "heure_de_debut": "12:30",
@@ -205,9 +229,15 @@ const PLANNING = {
                 "titre": "Le Lavaux",
                 "details_key": "",
                 "description": "",
-                "parking": {},
-                "lien": {},
-                "optionnel": false,
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parking+payant/@46.4890588,6.7212052,18.67z/data=!4m6!3m5!1s0x478c295a0653c573:0x9c8ef1802df34a6b!8m2!3d46.489131!4d6.7229706!16s%2Fg%2F11pbbjgcvt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/@46.4893361,6.718939,16z?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-route'></i>"
+                },
+                "optionnel": true,
                 "point_de_depart": "",
                 "heure_de_debut": "17:30",
                 "heure_de_fin": "17:45",
@@ -258,8 +288,14 @@ const PLANNING = {
                 "titre": "Jardin Botanique et Rocher de l'Ermitage",
                 "details_key": "",
                 "description": "Panorama sur la ville",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Parking+jardin+botanique/@46.9982059,6.9325139,17z/data=!4m6!3m5!1s0x478e0b5800ad6bcf:0x886d32537d20908f!8m2!3d46.9995716!4d6.9333534!16s%2Fg%2F11l5q01csz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Au pire y a le P+R Neuchâtel"
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Jardin+botanique,+2000+Neuch%C3%A2tel,+Suisse/@47.0001384,6.9320452,17z/data=!3m1!4b1!4m6!3m5!1s0x478e0a1ea81443d1:0x4bd6941de6b133c6!8m2!3d47.0001348!4d6.9346201!16s%2Fg%2F1td5klkl?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "point_de_depart": "",
                 "heure_de_debut": "15:00",
@@ -306,7 +342,10 @@ const PLANNING = {
                 "details_key": "",
                 "description": "Checker les façades",
                 "parking": {},
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Bernisches+Historisches+Museum+%2F+Einstein+Museum/@46.9441815,7.4431599,16.46z/data=!4m15!1m8!3m7!1s0x478e39c0d43a1b77:0xcb555ffe0457659a!2sBern,+Switzerland!3b1!8m2!3d46.9479739!4d7.4474468!16zL20vMGQ2bng!3m5!1s0x478e39c581192583:0x69969cc6bb933be9!8m2!3d46.9431112!4d7.4492833!16s%2Fm%2F03y9gtj?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "point_de_depart": "",
                 "heure_de_debut": "15:00",
