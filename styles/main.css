@@ -395,6 +395,7 @@ html{
     
                     .step {
                         padding: 20px 40px;
+                        gap: 4px;
     
                         .step-title {
                             font-size: 18px;
@@ -553,6 +554,7 @@ html{
                         .step {
                             font-size: 1.8rem;
                             padding: 2rem 4rem;
+                            gap: 0.4rem;
 
                             .step-title {
                                 font-size: 2rem;
