@@ -175,6 +175,19 @@ html{
                                 font-weight: 800;
                             }
                         }
+
+                        .step-details, .step-details-content{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .hide{
+                                display: none;
+                            }
+                        }
+                        .step-details-content{
+                            flex-direction: column;
+                        }
                     }
                 }
 

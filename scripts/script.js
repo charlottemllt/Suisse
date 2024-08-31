@@ -80,6 +80,25 @@ function feedDetailedPage(i, dateObj, campingObj){
                 <div class="step-point_de_depart">${step["point_de_depart"]}</div>
             `
         }
+
+        if (step["details_key"] !== ""){
+            let details_html = ""
+            let details = ITINERAIRES[step["details_key"]]
+            console.log(details)
+            details.forEach( (detail) => {
+                details_html += `<span class="detail">${detail}</span>`
+            })
+            step_div.innerHTML += `
+                <div class="step-details" id="details_${step['details_key']}">
+                    Voir détails
+                    <i class="fa-solid fa-chevron-up" id="details_${step['details_key']}_chevron-up"></i>
+                    <i class="fa-solid fa-chevron-down hide" id="details_${step['details_key']}_chevron-down"></i>
+                </div>
+                <div class="step-details-content" id="details_${step['details_key']}_content">
+                    ${details_html}
+                </div>
+            `
+        }
         steps_div.appendChild(step_div)
     })
     div.appendChild(steps_div)

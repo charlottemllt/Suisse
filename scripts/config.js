@@ -6,6 +6,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Route vers Annecy",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -16,6 +17,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de la Ville",
+                "details_key": "a",
                 "description": "4.3km ~2h",
                 "parking": {},
                 "lien": {
@@ -29,6 +31,7 @@ const PLANNING = {
             },
             {
                 "titre": "Basilique de la Visitation",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -47,6 +50,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Petit-Déjeuner au bord du lac",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -57,6 +61,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Genève",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -67,6 +72,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite en voiture",
+                "details_key": "b",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -77,6 +83,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite du quartier Sécheron",
+                "details_key": "c",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -90,6 +97,7 @@ const PLANNING = {
             },
             {
                 "titre": "Bains des Pâquis",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -100,6 +108,7 @@ const PLANNING = {
             },
             {
                 "titre": "Pique-nique",
+                "details_key": "",
                 "description": "Dans le Parc de La Grange ou dans le Parc des Eaux-vives",
                 "parking": {},
                 "lien": {},
@@ -110,6 +119,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de la ville",
+                "details_key": "d",
                 "description": "8km ~ 4h",
                 "parking": {},
                 "lien": {
@@ -131,6 +141,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Balade dans la forêt de Sauvabelin",
+                "details_key": "",
                 "description": "1.25km ~ 40min",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+du+Lac+Sauvabelin/@46.5377654,6.6384619,18.17z/data=!4m9!1m2!2m1!1sparking!3m5!1s0x478c2f457a04a74b:0xa47f5b4e906f19d9!8m2!3d46.5384794!4d6.6392498!16s%2Fg%2F11sxwxz1x1?",
@@ -147,6 +158,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de la ville",
+                "details_key": "e",
                 "description": "3.86km ~ 2h - Pique-Nique sur la fin",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+lot,+1018+Lausanne,+Suisse/@46.5330488,6.6393357,19.04z/data=!4m6!3m5!1s0x478c2e3eed35e4fb:0xc86d124d2b701b0e!8m2!3d46.5329136!4d6.640115!16s%2Fg%2F11bw41x_rl?entry=ttu",
@@ -163,6 +175,7 @@ const PLANNING = {
             },
             {
                 "titre": "Pique-Nique",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -173,6 +186,7 @@ const PLANNING = {
             },
             {
                 "titre": "Balade à pied dans le sud de Lausanne",
+                "details_key": "f",
                 "description": "3.34km ~ 2h (Parking 2CHF/h)",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+lot,+1018+Lausanne,+Suisse/@46.5330488,6.6393357,19.04z/data=!4m6!3m5!1s0x478c2e3eed35e4fb:0xc86d124d2b701b0e!8m2!3d46.5329136!4d6.640115!16s%2Fg%2F11bw41x_rl?entry=ttu",
@@ -189,6 +203,7 @@ const PLANNING = {
             },
             {
                 "titre": "Le lavaux",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -207,6 +222,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Visite de la ville",
+                "details_key": "g",
                 "description": "4.17km ~ 2h",
                 "parking": {
                     "target": "",
@@ -223,6 +239,7 @@ const PLANNING = {
             },
             {
                 "titre": "Baignade et pique-nique",
+                "details_key": "",
                 "description": "",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+Des+Piscines/@46.9956914,6.9529507,601m/data=!3m1!1e3!4m6!3m5!1s0x478e0a2f12d78e07:0xabcc300f2263b72b!8m2!3d46.9968039!4d6.9527109!16s%2Fg%2F11c0rgg_l2?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D",
@@ -239,6 +256,7 @@ const PLANNING = {
             },
             {
                 "titre": "Jardin Botanique et Rocher de l'Ermitage",
+                "details_key": "",
                 "description": "Panorama sur la ville",
                 "parking": {},
                 "lien": {},
@@ -249,6 +267,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers le camping",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -267,6 +286,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Visite de la ville",
+                "details_key": "h",
                 "description": "7.20km ~ 4h",
                 "parking": {
                     "target": "",
@@ -283,6 +303,7 @@ const PLANNING = {
             },
             {
                 "titre": "Musée d'Histoire et Musée Einstein",
+                "details_key": "",
                 "description": "Checker les façades",
                 "parking": {},
                 "lien": {},
@@ -293,6 +314,7 @@ const PLANNING = {
             },
             {
                 "titre": "Quartier Breitenrain-Lorraine",
+                "details_key": "",
                 "description": "passer en voiture",
                 "parking": {},
                 "lien": {},
@@ -303,6 +325,7 @@ const PLANNING = {
             },
             {
                 "titre": "Centre Paul Klee",
+                "details_key": "",
                 "description": "Petite balade autour",
                 "parking": {},
                 "lien": {},
@@ -313,6 +336,7 @@ const PLANNING = {
             },
             {
                 "titre": "Colline du Gurten",
+                "details_key": "",
                 "description": "Profiter de la vue, Goûter",
                 "parking": {},
                 "lien": {},
@@ -331,6 +355,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Visite de la ville",
+                "details_key": "i",
                 "description": "5km ~ 2h30",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Burgerstrasse+20,+6003+Luzern,+Suisse/@47.0504816,8.2940059,15.83z/data=!4m6!3m5!1s0x478ffba01b6f23cb:0x9e79df3e5d78f0!8m2!3d47.0499275!4d8.3022694!16s%2Fg%2F11cs5xw0ft?entry=ttu",
@@ -341,7 +366,7 @@ const PLANNING = {
                     "text": "(rajoute 2km à la visite)"
                 },
                 "lien": {
-                    "target": "https://footpathapp.com/routes/4f66c4cb-9cbc-40b1-9c15-7034f0a412ec",
+                    "target": "https://footpathapp.com/routes/3da1caad-7e43-4b4f-9a1a-7fe95c308610",
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
@@ -350,7 +375,22 @@ const PLANNING = {
                 "heure_de_fin": "12:30"
             },
             {
+                "titre": "Visite bis",
+                "details_key": "",
+                "description": "Jardin des Glaciers ~ Lion de Lucerne ~ Panorama Bourbaki",
+                "parking": {
+                    "target": "https://www.google.com/maps/place/City+Parking/@47.0579577,8.3075599,17z/data=!4m6!3m5!1s0x478ffb9c9e011619:0xb1c60af040cb77b0!8m2!3d47.0577941!4d8.3095571!16s%2Fg%2F11b7q4lnkg?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {},
+                "optionnel": false,
+                "point_de_depart": "",
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Boire un verre en terrasse le long de la Reuss",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -361,6 +401,7 @@ const PLANNING = {
             },
             {
                 "titre": "Château de Meggenhorn",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {
@@ -374,6 +415,7 @@ const PLANNING = {
             },
             {
                 "titre": "Aussichtspunkt Känzeli",
+                "details_key": "",
                 "description": "Pique-Nique",
                 "parking": {},
                 "lien": {
@@ -387,6 +429,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Zurich",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -405,6 +448,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Pavillon Le Corbusier et Jardin Chinois",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -415,6 +459,7 @@ const PLANNING = {
             },
             {
                 "titre": "Le Rieterpark et Lac de Zurich",
+                "details_key": "",
                 "description": "Pique-Nique (rösti) et baignade",
                 "parking": {},
                 "lien": {},
@@ -425,6 +470,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de la ville",
+                "details_key": "j",
                 "description": "6.36km ~ 3h30",
                 "parking": {
                     "target": "https://www.google.com/maps/place/Mythenquai+21+Parking/@47.360617,8.530977,17z/data=!4m9!1m2!2m1!1sHafendamm+Enge+!3m5!1s0x479009fdb212ed13:0x120be27a09bc6119!8m2!3d47.360617!4d8.5357406!16s%2Fg%2F11gd67v5q4?entry=ttu",
@@ -447,6 +493,7 @@ const PLANNING = {
             },
             {
                 "titre": "Quartier Ouest",
+                "details_key": "k",
                 "description": "2km ~ 1h",
                 "parking": {},
                 "lien": {
@@ -468,6 +515,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Uetliberg et Pique-Nique",
+                "details_key": "",
                 "description": "Il faut se garer en bas et y aller en train (quelques CHF par personne)",
                 "parking": {
                     "target": "https://www.google.com/maps/@47.369739,8.4669919,3a,75y,326.64h,90.72t/data=!3m7!1e1!3m5!1sIToUiUh6YkyGzUZ4qPXibw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DIToUiUh6YkyGzUZ4qPXibw%26cb_client%3Dmaps_sv.share%26w%3D900%26h%3D600%26yaw%3D326.64018498192837%26pitch%3D-0.7229516165196088%26thumbfov%3D90!7i13312!8i6656?coh=205410&entry=ttu",
@@ -484,6 +532,7 @@ const PLANNING = {
             },
             {
                 "titre": "Balade dans Zurich",
+                "details_key": "l",
                 "description": "3.49km ~ 2h",
                 "parking": {},
                 "lien": {
@@ -497,6 +546,7 @@ const PLANNING = {
             },
             {
                 "titre": "Monte Diggelmann et Resi-Weiher",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -507,6 +557,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Constance",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -525,6 +576,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Tour de l'île de Reichenau",
+                "details_key": "m",
                 "description": "En voiture",
                 "parking": {},
                 "lien": {},
@@ -535,6 +587,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de la ville",
+                "details_key": "n",
                 "description": "1.9km ~ 1h",
                 "parking": {},
                 "lien": {
@@ -548,6 +601,7 @@ const PLANNING = {
             },
             {
                 "titre": "Parc Seeburg",
+                "details_key": "",
                 "description": "Pique-Nique et baignade (?)",
                 "parking": {},
                 "lien": {
@@ -561,6 +615,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Saint-Gall",
+                "details_key": "",
                 "description": "45min (penser à longer le lac)",
                 "parking": {},
                 "lien": {},
@@ -571,6 +626,7 @@ const PLANNING = {
             },
             {
                 "titre": "Rorschach",
+                "details_key": "o",
                 "description": "sur la route, Si on a deux heures à tuer, on peut le faire à pied",
                 "parking": {},
                 "lien": {},
@@ -581,6 +637,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de Saint-Gall",
+                "details_key": "p",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -591,6 +648,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers le camping",
+                "details_key": "",
                 "description": "30min",
                 "parking": {},
                 "lien": {},
@@ -609,6 +667,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Randonnée Seealpsee",
+                "details_key": "",
                 "description": "7km ~ 3h30",
                 "parking": {
                     "target": "https://www.google.com/maps/place/Wasserauen/@47.2860487,9.4255041,17z/data=!4m14!1m7!3m6!1s0x479b242f97be517d:0x5193f0e965cc9e96!2sSeealpsee!8m2!3d47.2685217!4d9.4007497!16s%2Fm%2F02ptxdx!3m5!1s0x479b2471dfc29379:0x549b6e0710d8e6bf!8m2!3d47.2868529!4d9.4296549!16s%2Fg%2F11jz5ftc52?entry=ttu",
@@ -616,7 +675,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://footpathapp.com/routes/eedc13be-7780-4e28-8339-2b5d373c7171",
-                    "text": "<i class='fa-solid fa-route'></i>"
+                    "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
                 "point_de_depart": "",
@@ -625,6 +684,7 @@ const PLANNING = {
             },
             {
                 "titre": "Alte Rheinbrücke",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {
@@ -638,6 +698,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Crestasee",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -648,6 +709,7 @@ const PLANNING = {
             },
             {
                 "titre": "Montage de tente",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -658,6 +720,7 @@ const PLANNING = {
             },
             {
                 "titre": "Baignade dans le lac",
+                "details_key": "",
                 "description": "7CHF/pers, 5CHF à partir de 16h",
                 "parking": {},
                 "lien": {},
@@ -676,6 +739,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Route vers le Glacier",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -686,6 +750,7 @@ const PLANNING = {
             },
             {
                 "titre": "Glacier et Hôtel Belvedère, avec Pique-Nique",
+                "details_key": "",
                 "description": "ne prennent pas la CB ?",
                 "parking": {},
                 "lien": {
@@ -699,6 +764,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers la Grotte Militaire",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},                
@@ -709,6 +775,7 @@ const PLANNING = {
             },
             {
                 "titre": "Grotte Militaire",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {
@@ -722,6 +789,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers le camping",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -732,6 +800,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de Lauterbrunnen",
+                "details_key": "",
                 "description": "+ Staubbach falls",
                 "parking": {},
                 "lien": {},
@@ -750,11 +819,12 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Randonnée + Pique-Nique",
+                "details_key": "",
                 "description": "6.3km ~ 4h",
                 "parking": {},
                 "lien": {
                     "target": "https://www.samfaitvoyager.com/randonnees-suisse/",
-                    "text": "randonnée"
+                    "text": "<i class='fa-solid fa-person-hikin'></i>"
                 },
                 "optionnel": false,
                 "point_de_depart": "",
@@ -763,6 +833,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Ormont-Dessous",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -781,6 +852,7 @@ const PLANNING = {
         "planning": [
             {
                 "titre": "Randonnée et baignade",
+                "details_key": "",
                 "description": "Le Pic Chaussy - Canton de Vaud, 7km ~ 4h",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Parking+Lioson+d%E2%80%99en+Bas/@46.3905098,7.1192715,15.59z/data=!4m6!3m5!1s0x478e9316c957f6bf:0xf4617abfc31eed90!8m2!3d46.3921561!4d7.1178562!16s%2Fg%2F11f89lgr27?coh=164777&entry=tt&shorturl=1",
@@ -788,7 +860,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.samfaitvoyager.com/randonnees-suisse/",
-                    "text": "lien randonnée"
+                    "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
                 "point_de_depart": "",
@@ -797,6 +869,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers Gruyères",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -807,6 +880,7 @@ const PLANNING = {
             },
             {
                 "titre": "Visite de Gruyères",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -817,6 +891,7 @@ const PLANNING = {
             },
             {
                 "titre": "Route vers le camping",
+                "details_key": "",
                 "description": "",
                 "parking": {},
                 "lien": {},
@@ -1002,5 +1077,165 @@ const CAMPING = {
 }
 
 const ITINERAIRES = {
-
+    "a": [
+        "Château d'Annecy",
+        "Vieille Ville",
+        "Place Saint-Claire",
+        "Maison Gallo",
+        "Rue royale",
+        "Eglise Notre-Dame de Liesse",
+        "Cathédrale Saint-Pierre",
+        "Palais de l'Île",
+        "Le Thiou",
+        "Eglise Saint-François de Sales",
+        "Eglise Saint-Maurice",
+        "Hôtel de ville",
+        "Le Paquier",
+        "Pont des amours",
+        "Jardins de l'europe",
+        "Panorama du Lac",
+        "Ile des cygnes",
+    ],
+    "b": [
+        "Quartier Carrouge",
+        "Quartier des Grottes",
+        "Quartier des Bains",
+    ],
+    "c": [
+        "Sculpture Broken Chair",
+        "Palais des Nations",
+        "Jardin botanique ? mais interdit aux chiens ",
+    ],
+    "d": [
+        "Jet d'eau de Genève",
+        "Jardin Anglais",
+        "l’Horloge Fleurie",
+        "Tour du Molard",
+        "Place neuve",
+        "Parc des Bastions",
+        "Mur des réformateurs",
+        "Promenade de la Treille",
+        "Maison Tavel",
+        "Chapelle de Macchabées",
+        "Cathédrale Saint-Pierre",
+        "Place du Bourg-de-Four",
+        "Collège Calvin",
+        "Musée d'art et d'histoire",
+    ],
+    "e": [
+        "Parc de l'Hermitage",
+        "Esplanade du château saint Maire",
+        "Cathédrale de Lausanne",
+        "Place de la Palud",
+        "Rue centrale",
+        "Passerelle du Flon",
+        "Quartier du flon",
+        "Esplanade de Montbenon",
+        "Remontée vers le point de départ",
+    ],
+    "f": [
+        "Crêt de Montriond",
+        "port d'Ouchy",
+        "Lac Léman",
+    ],
+    "g": [
+        "Esplanade Mont-Blanc",
+        "Place Pury",
+        "Place des Halles",
+        "Rue du Pommier",
+        "Passage des Corbets",
+        "Fontaine du Banneret",
+        "La tour de Diesse",
+        "Château de Neuchâtel",
+        "La collégiale",
+        "Le Cloître",
+        "Les remparts",
+        "La tour des prisons",
+        "Rue des moulins",
+        "Rue des Chavannes",
+        "Rue du Neubourg",
+        "Hôtel Dupeyrou",
+        "Faubourg de l'Hôpital",
+        "Jardin Anglais",
+        "Rue des Beaux-Arts",
+    ],
+    "h": [
+        "Rosengarten - Jardin des roses",
+        "Bear park ?",
+        "Pont de Nydegg",
+        "Quartier des matte",
+        "Cathédrale St Vincent",
+        "Terrasse de la Collégiale",
+        "Palais fédéral",
+        "Bundesterrasse (Terrasse du Palais fédéral) - Europapromenade",
+        "Tour de l'horloge - Zytglogge",
+        "Tour des Prisons (Käfigturm)",
+        "Musée des beaux-arts",
+        "Jardin botanique",
+        "Balade le long de l'Aar",
+        "Rue Kramgasse",
+        "Maison d'Einstein",
+        "Rathausplatz - Hôtel de Ville",
+        "Läuferpltaz",
+        "Untertorbrücke",
+    ],
+    "i": [
+        "Eglise des Jésuites de Lucerne",
+        "Vieille Ville",
+        "KKL de Jean Nouvel",
+        "Pont de la Chapelle de Lucerne",
+        "Chapelle Saint-Pierre",
+        "Les remparts",
+        "Kornschütte - Vieil hôtel de ville",
+        "Mühlenplatz",
+        "Spreuerbrücke",
+        "Barrage à aiguilles - Nadelwehr",
+    ],
+    "j": [
+        "Eglise Fraumunster",
+        "Eglise Saint-Pierre",
+        "Bahnhofstrasse",
+        "Quartier Schipfe",
+        "Lidenhof",
+        "Rathausbrücke",
+        "Rathaus",
+        "Cabaret Voltaire",
+        "Eglise Grossmunster",
+        "Kunsthaus",
+        "Opernhaus Zürich",
+    ],
+    "k": [
+        "Viadukt",
+        "Frau Gerolds Garten",
+        "Schiffbau",
+    ],
+    "l": [
+        "Terrasse de l'ETH (Pas sûr qu'on puisse rentrer dedans mais c'est un beau bâtiment)",
+        "Quartier Niederdorf",
+        "Musée national de Zurich",
+    ],
+    "m":[
+        "Münster St. Maria und Markus",
+        "Sankt Peter Und Paul",
+        "Sankt Georg",
+    ],
+    "n": [
+        "Imperia",
+        "Port",
+        "StadtGarten",
+        "Cathédrale",
+    ],
+    "o": [
+        "Badhütte",
+        "Kornhaus",
+        "Würth Haus",
+    ],
+    "p": [
+        "Gare et son horloge binaire",
+        "Cathédrale baroque",
+        "Bibliothèque collégiale",
+        "RoterPlatz",
+        "Apprécier la vue sur la ville et le lac depuis les « Drei Weieren »",
+        "Wenigerweiher",
+    ]
 }
