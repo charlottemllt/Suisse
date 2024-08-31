@@ -59,12 +59,10 @@ html{
 
                 .title_container{
                     width: 100%;
-                    height: 100px;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
-                    gap: 20px;
 
                     .title {
                         font-weight: 800;
@@ -136,6 +134,7 @@ html{
                 #steps{
                     overflow-y: auto;
                     scrollbar-width: none;
+                    flex: 1;
 
                     .step {
                         display: flex;
@@ -148,8 +147,12 @@ html{
                         }
     
                         .step-title {
-                            font-weight: 600;
-    
+                            display: flex;
+                            align-items: center;
+                            .step_title{
+                                font-weight: 600;
+                            }
+                    
                             .step-hours {
                                 font-weight: 400;
                             }
@@ -165,7 +168,7 @@ html{
     
                             .icon-parking {
                                 background: #004593;
-                                border: 4px solid white;
+                                border: 2px solid white;
                                 outline: 1px solid #004593;
                                 border-radius: 4px;
                                 color: white;
@@ -181,7 +184,6 @@ html{
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            width: 60%;
                             .step-details-title{
                                 display: flex;
                                 flex-direction: row;
@@ -196,10 +198,7 @@ html{
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                width: 100%;
                                 background-color: #00000010;
-                                padding: 12px;
-                                gap: 4px;
                                 border-radius: 8px;
                                 .detail{
                                     width: 100%;
@@ -227,6 +226,8 @@ html{
                 .camping_container {
                     &:not(.hide) {
                         display: flex;
+                        flex: 1;
+                        justify-content: center;
                     }
 
                     flex-direction: column;
@@ -333,7 +334,7 @@ html{
                         }
     
                         .title {
-                            font-weight: 800;
+                            font-size: 32px;
                         }
                     }
     
@@ -393,14 +394,12 @@ html{
                     }
     
                     .step {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
                         padding: 20px 40px;
     
                         .step-title {
                             font-size: 18px;
+                            height: 32px;
+                            gap: 4px;
     
                             .step-hours {
                                 font-size: 16px;
@@ -411,10 +410,15 @@ html{
                             gap: 4px;
     
                             .icon-parking {
-                                width: 24px;
-                                height: 24px;
-                                font-size: 20px;
+                                width: 20px;
+                                height: 20px;
+                                font-size: 16px;
                             }
+                        }
+
+                        .step-details .step-details-content{
+                            padding: 16px;
+                            gap: 4px;
                         }
                     }
 
@@ -422,6 +426,7 @@ html{
                         .camping-container.name{
                             font-size: 24px;
                             gap: 4px;
+                            padding-bottom: 24px;
                         }
                     }
     
@@ -551,6 +556,8 @@ html{
 
                             .step-title {
                                 font-size: 2rem;
+                                height: 3.2rem;
+                                padding: 0.4rem;
 
                                 .step-hours {
                                     font-size: 1.6rem;
@@ -561,21 +568,27 @@ html{
                                 gap: 0.4rem;
 
                                 .icon-parking {
-                                    width: 2.4rem;
-                                    height: 2.4rem;
-                                    font-size: 2rem;
+                                    width: 2rem;
+                                    height: 2rem;
+                                    font-size: 1.6rem;
                                 }
+                            }
+
+                            .step-details .step-details-content{
+                                padding: 16px;
+                                gap: 4px;
                             }
                         }
                     }
 
                     .camping_container {
                         height: calc(100% - 18rem);
-                        gap: 2rem;
+                        gap: 0.8rem;
                         font-size: 1.8rem;
                         .camping-container.name{
                             font-size: 2.4rem;
                             gap: 0.4rem;
+                            padding-bottom: 4rem;
                         }
                     }
 

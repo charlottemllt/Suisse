@@ -41,8 +41,9 @@ function feedDetailedPage(i, dateObj, campingObj){
             step_div.classList.toggle("optionnal")
         }
 
+        let link_html = ""
         if (Object.keys(step["lien"]).length != 0){
-            step_div.innerHTML += `
+            link_html += `
                 <a href=${step["lien"]["target"]} target="_blank" class="step-lien">${step["lien"]["text"]}</a>
             `
         }
@@ -63,7 +64,13 @@ function feedDetailedPage(i, dateObj, campingObj){
             `
         }
         step_div.innerHTML += `
-            <div class="step-title">${step["titre"]} ${span_hours}</div>
+            <div class="step-title">
+                ${link_html}
+                <span class="step_title">
+                    ${step["titre"]}
+                </span>
+                ${span_hours}
+            </div>
         `
 
         if (step["description"] != ""){
