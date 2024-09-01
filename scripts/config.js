@@ -11,7 +11,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "09:00",
                 "heure_de_fin": "15:30"
             },
@@ -28,7 +27,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "15:30",
                 "heure_de_fin": "17:30"
             },
@@ -45,7 +43,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "17:30",
                 "heure_de_fin": "18:00"
             }
@@ -64,7 +61,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "09:00",
                 "heure_de_fin": "10:00"
             },
@@ -75,7 +71,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "11:00"
             },
@@ -86,7 +81,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": true,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             },
@@ -100,7 +94,6 @@ const PLANNING = {
                 },
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "12:00",
                 "details": [
@@ -120,7 +113,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "12:00",
                 "heure_de_fin": "12:30"
             },
@@ -137,7 +129,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "12:30",
                 "heure_de_fin": "13:30"
             },
@@ -151,7 +142,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "13:30",
                 "heure_de_fin": "17:30"
             }
@@ -176,7 +166,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "10:40"
             },
@@ -193,7 +182,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "13:00"
             },
@@ -204,7 +192,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "13:00",
                 "heure_de_fin": "14:00"
             },
@@ -221,7 +208,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "14:30",
                 "heure_de_fin": "16:30"
             },
@@ -238,7 +224,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": true,
-                "point_de_depart": "",
                 "heure_de_debut": "17:30",
                 "heure_de_fin": "17:45",
             }
@@ -263,7 +248,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "12:00"
             },
@@ -280,7 +264,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "12:00",
                 "heure_de_fin": "15:00"
             },
@@ -297,7 +280,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "15:00",
                 "heure_de_fin": "16:00"
             },
@@ -308,7 +290,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
             }
@@ -321,21 +302,20 @@ const PLANNING = {
         "date_text": "Mercredi 11 Septembre",
         "planning": [
             {
-                "titre": "Visite de la ville",
-                "details_key": "h",
-                "description": "7.20km ~ 4h",
+                "titre": "Colline du Gurten (via funiculaire)",
+                "details_key": "",
+                "description": "Profiter de la vue",
                 "parking": {
-                    "target": "",
-                    "text": "Parking compliqué, il faut trouver une place en zone bleue"
+                    "target": "https://www.google.com/maps/place/Parking+Gurten/@46.9283146,7.4466967,19z/data=!4m6!3m5!1s0x478e38318b37f9cb:0x3b8c539d763a246!8m2!3d46.9282029!4d7.4470995!16s%2Fg%2F11cmdgb2sz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Parking Gurten"
                 },
                 "lien": {
-                    "target": "https://footpathapp.com/routes/4f66c4cb-9cbc-40b1-9c15-7034f0a412ec",
-                    "text": "<i class='fa-solid fa-route'></i>"
+                    "target": "https://www.gurtenpark.ch/fr-ch/",
+                    "text": "<i class='fa-solid fa-train'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "10:30",
-                "heure_de_fin": "15:00"
+                "heure_de_debut": "09:00",
+                "heure_de_fin": "11:30"
             },
             {
                 "titre": "Musée d'Histoire et Musée Einstein",
@@ -347,42 +327,60 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "15:00",
-                "heure_de_fin": "15:30"
+                "heure_de_debut": "11:30",
+                "heure_de_fin": "12:00"
+            },
+            {
+                "titre": "Visite de la ville",
+                "details_key": "h",
+                "description": "7.20km ~ 4h",
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Kursaal+Parking/@46.9549333,7.4487747,16.08z/data=!4m6!3m5!1s0x478e39e9f811e0a5:0x396499f82431483f!8m2!3d46.952959!4d7.4480066!16s%2Fg%2F12lks0zjh?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Parking Kursaal ou une place en zone bleue"
+                },
+                "lien": {
+                    "target": "https://footpathapp.com/routes/4f66c4cb-9cbc-40b1-9c15-7034f0a412ec",
+                    "text": "<i class='fa-solid fa-route'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "12:30",
+                "heure_de_fin": "16:30"
             },
             {
                 "titre": "Quartier Breitenrain-Lorraine",
                 "details_key": "",
-                "description": "passer en voiture",
+                "description": "Passer en voiture",
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "15:30",
-                "heure_de_fin": "16:00"
+                "heure_de_debut": "16:30",
+                "heure_de_fin": "17:00"
             },
             {
                 "titre": "Centre Paul Klee",
                 "details_key": "",
-                "description": "Petite balade autour",
-                "parking": {},
-                "lien": {},
+                "description": "Petite balade autour et point de vue",
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Undo-endo,+3006+Bern,+Switzerland/@46.950797,7.4732315,18z/data=!3m1!4b1!4m6!3m5!1s0x478e376761a581cd:0xd2d8761c67230c9b!8m2!3d46.9507957!4d7.4741685!16s%2Fg%2F1tdmzdp6?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Peut-être des places dispos ici"
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Zentrum+Paul+Klee/@46.9488946,7.4715231,17z/data=!3m1!4b1!4m6!3m5!1s0x478e376710a618cb:0xda760f639344051!8m2!3d46.948891!4d7.474098!16s%2Fm%2F02pzd0z?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "16:00",
-                "heure_de_fin": "16:30"
+                "heure_de_debut": "17:00",
+                "heure_de_fin": "17:30"
             },
             {
-                "titre": "Colline du Gurten",
+                "titre": "Route vers Lucerne",
                 "details_key": "",
-                "description": "Profiter de la vue, Goûter",
+                "description": "",
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "16:30",
-                "heure_de_fin": "17:00"
+                "heure_de_debut": "17:30",
+                "heure_de_fin": "19:15"
             }
         ],
         "baignade": false
@@ -409,7 +407,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "12:30"
             },
@@ -420,7 +417,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": true,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             },
@@ -432,9 +428,11 @@ const PLANNING = {
                     "target": "https://www.google.com/maps/place/City+Parking/@47.0579577,8.3075599,17z/data=!4m6!3m5!1s0x478ffb9c9e011619:0xb1c60af040cb77b0!8m2!3d47.0577941!4d8.3095571!16s%2Fg%2F11b7q4lnkg?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
                     "text": ""
                 },
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Lion+Monument/@47.0584264,8.3062872,17z/data=!4m6!3m5!1s0x478ffb9b5705eb8b:0x627afecb728fc384!8m2!3d47.0584263!4d8.3109151!16s%2Fm%2F03qfw5r?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             },
@@ -442,13 +440,15 @@ const PLANNING = {
                 "titre": "Château de Meggenhorn",
                 "details_key": "",
                 "description": "",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parkplatz+Meggenhorn/@47.0396818,8.3597433,17z/data=!4m6!3m5!1s0x478ff902e7285e75:0x96d638888b211558!8m2!3d47.038851!4d8.3584949!16s%2Fg%2F11h3qfd_gv?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Meggenhorn/@47.0352557,8.3536243,17z/data=!3m1!4b1!4m6!3m5!1s0x478ff96ff47bccd9:0xb28b207cc4300e03!8m2!3d47.0352521!4d8.3561992!16s%2Fm%2F025zh1n?entry=ttu",
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "13:00",
                 "heure_de_fin": "13:30"
             },
@@ -456,14 +456,16 @@ const PLANNING = {
                 "titre": "Aussichtspunkt Känzeli",
                 "details_key": "",
                 "description": "Pique-Nique",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Paid+Parking/@47.0694057,8.4659361,15z/data=!4m6!3m5!1s0x478555f16e0d140f:0xf7319a0d8511e50a!8m2!3d47.0689285!4d8.4667938!16s%2Fg%2F11gt9f2smq?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Aussichtspunkt+K%C3%A4nzeli/@47.0587058,8.4009136,13z/data=!4m6!3m5!1s0x4785561a7adc1c19:0xf8d872c85ac70cf9!8m2!3d47.045841!4d8.455676!16s%2Fg%2F11cryt6s12?entry=ttu",
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
-                "heure_de_debut": "14:15",
+                "heure_de_debut": "14:00",
                 "heure_de_fin": "16:30"
             },
             {
@@ -473,7 +475,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:30",
                 "heure_de_fin": "17:45"
             }
@@ -492,7 +493,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "10:30"
             },
@@ -503,7 +503,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "13:00"
             },
@@ -526,7 +525,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "17:30"
             },
@@ -540,7 +538,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "16:30"
             }
@@ -565,7 +562,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-train'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "13:00"
             },
@@ -579,7 +575,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "16:00"
             },
@@ -590,7 +585,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
             },
@@ -601,7 +595,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
+                
                 "heure_de_debut": "17:00",
                 "heure_de_fin": "18:00"
             }
@@ -620,7 +614,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": true,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "10:30"
             },
@@ -634,7 +627,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "12:00"
             },
@@ -648,7 +640,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "12:00",
                 "heure_de_fin": "14:00"
             },
@@ -659,7 +650,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:30"
             },
@@ -670,7 +660,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             },
@@ -681,7 +670,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             },
@@ -692,7 +680,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "",
                 "heure_de_fin": ""
             }
@@ -717,7 +704,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "14:00"
             },
@@ -731,7 +717,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "15:00",
                 "heure_de_fin": "15:30"
             },
@@ -742,7 +727,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "15:30",
                 "heure_de_fin": "16:00"
             },
@@ -753,7 +737,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
             },
@@ -764,7 +747,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "17:00",
                 "heure_de_fin": ""
             }
@@ -783,7 +765,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "9:00",
                 "heure_de_fin": "11:00"
             },
@@ -797,7 +778,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "13:00"
             },
@@ -808,7 +788,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},                
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "13:00",
                 "heure_de_fin": "14:00"
             },
@@ -822,7 +801,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "16:00"
             },
@@ -833,7 +811,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "16:30"
             },
@@ -844,7 +821,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "18:00",
                 "heure_de_fin": "19:00"
             }
@@ -866,7 +842,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-person-hikin'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "9:00",
                 "heure_de_fin": "13:00"
             },
@@ -877,7 +852,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "16:00"
             }
@@ -902,7 +876,6 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "15:00"
             },
@@ -913,7 +886,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "15:00",
                 "heure_de_fin": "16:00"
             },
@@ -924,7 +896,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
             },
@@ -935,7 +906,6 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "point_de_depart": "",
                 "heure_de_debut": "17:00",
                 "heure_de_fin": "19:00"
             }
