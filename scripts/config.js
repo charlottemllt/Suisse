@@ -391,14 +391,30 @@ const PLANNING = {
         "date_text": "Jeudi 12 Septembre",
         "planning": [
             {
+                "titre": "Ascenseur du Hammetschwand",
+                "details_key": "",
+                "description": "Pas obligé de payer (on peut faire à pied)",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Parkplatz+B%C3%BCrgenstock+Honegg/@46.9947639,8.3969346,656m/data=!3m1!1e3!4m6!3m5!1s0x478ff9cd0541c5cb:0x6c36b038a17ebe26!8m2!3d46.993783!4d8.399706!16s%2Fg%2F11g0h_4qbq!5m2!1e1!1e4?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Ascenseur+du+Hammetschwand/@47.0060874,8.3923034,14.83z/data=!4m6!3m5!1s0x478ff839c7b45555:0x881fff8971892d9!8m2!3d47.0013436!4d8.3963211!16zL20vMGNqanFz!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "10:00",
+                "heure_de_fin": "12:00"
+            },
+            {
                 "titre": "Visite de la ville",
                 "details_key": "i",
-                "description": "5km ~ 2h30",
+                "description": "5km ~ 2h30 ~ Commencer par le Nord-Ouest pour Pique-Niquer vers la Villa Musegg",
                 "parking": {
                     "target": "https://www.google.fr/maps/place/Burgerstrasse+20,+6003+Luzern,+Suisse/@47.0504816,8.2940059,15.83z/data=!4m6!3m5!1s0x478ffba01b6f23cb:0x9e79df3e5d78f0!8m2!3d47.0499275!4d8.3022694!16s%2Fg%2F11cs5xw0ft?entry=ttu",
                     "text": "(2CHF / h à la louche)"
                 },
-                "parking_alternatif": {
+                "alternative": {
                     "target": "https://www.google.fr/maps/place/Baselstrasse+61A,+6003+Luzern,+Suisse/@47.0531669,8.2905478,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb72ff1e35a3:0x633ad9a5a50f18ee!8m2!3d47.0531633!4d8.2931227!16s%2Fg%2F11cs60_xpd?entry=ttu",
                     "text": "(rajoute 2km à la visite)"
                 },
@@ -407,8 +423,8 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-route'></i>"
                 },
                 "optionnel": false,
-                "heure_de_debut": "10:00",
-                "heure_de_fin": "12:30"
+                "heure_de_debut": "12:30",
+                "heure_de_fin": "15:00"
             },
             {
                 "titre": "Boire un verre en terrasse le long de la Reuss",
@@ -433,8 +449,8 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "heure_de_debut": "",
-                "heure_de_fin": ""
+                "heure_de_debut": "15:30",
+                "heure_de_fin": "16:00"
             },
             {
                 "titre": "Château de Meggenhorn",
@@ -449,25 +465,10 @@ const PLANNING = {
                     "text": "<i class='fa-solid fa-location-dot'></i>"
                 },
                 "optionnel": false,
-                "heure_de_debut": "13:00",
-                "heure_de_fin": "13:30"
+                "heure_de_debut": "16:15",
+                "heure_de_fin": "16:45"
             },
-            {
-                "titre": "Aussichtspunkt Känzeli",
-                "details_key": "",
-                "description": "Pique-Nique",
-                "parking": {
-                    "target": "https://www.google.com/maps/place/Paid+Parking/@47.0694057,8.4659361,15z/data=!4m6!3m5!1s0x478555f16e0d140f:0xf7319a0d8511e50a!8m2!3d47.0689285!4d8.4667938!16s%2Fg%2F11gt9f2smq?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": ""
-                },
-                "lien": {
-                    "target": "https://www.google.fr/maps/place/Aussichtspunkt+K%C3%A4nzeli/@47.0587058,8.4009136,13z/data=!4m6!3m5!1s0x4785561a7adc1c19:0xf8d872c85ac70cf9!8m2!3d47.045841!4d8.455676!16s%2Fg%2F11cryt6s12?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
-                },
-                "optionnel": false,
-                "heure_de_debut": "14:00",
-                "heure_de_fin": "16:30"
-            },
+            
             {
                 "titre": "Route vers Zurich",
                 "details_key": "",
@@ -475,8 +476,8 @@ const PLANNING = {
                 "parking": {},
                 "lien": {},
                 "optionnel": false,
-                "heure_de_debut": "16:30",
-                "heure_de_fin": "17:45"
+                "heure_de_debut": "16:45",
+                "heure_de_fin": "18:00"
             }
         ],
         "baignade": false
@@ -490,8 +491,14 @@ const PLANNING = {
                 "titre": "Pavillon Le Corbusier et Jardin Chinois",
                 "details_key": "",
                 "description": "",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parkhaus+Z%C3%BCrichhorn/@47.3553247,8.5475719,17z/data=!4m6!3m5!1s0x479aa74690f74bb3:0xf6b9e44e8b93a5e8!8m2!3d47.3555429!4d8.5532238!16s%2Fg%2F11b77fznxz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Chinagarten+Z%C3%BCrich/@47.3547089,8.5507203,18.12z/data=!4m15!1m8!3m7!1s0x47900b9749bea219:0xe66e8df1e71fdc03!2sZ%C3%BCrich,+Switzerland!3b1!8m2!3d47.3768866!4d8.541694!16zL20vMDg5NjY!3m5!1s0x479aa74575ec8049:0xc567c3f4f9cdb369!8m2!3d47.3548182!4d8.5520921!16s%2Fm%2F05p4570?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "10:30"
@@ -500,8 +507,14 @@ const PLANNING = {
                 "titre": "Le Rieterpark et Lac de Zurich",
                 "details_key": "",
                 "description": "Pique-Nique (rösti) et baignade",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Mythenquai+318+Parking/@47.3497328,8.5290933,17z/data=!4m6!3m5!1s0x479009e0344da789:0x2bdd9b9a068ba50a!8m2!3d47.3497324!4d8.533997!16s%2Fg%2F11f_p39l6p?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Strandbad Mythenquai (2CHF pour 4h, max 4h)"
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Rieterpark/@47.3575344,8.5181904,14.08z/data=!4m6!3m5!1s0x479009fb4b73d5c7:0x42bb790cf1826c22!8m2!3d47.3578898!4d8.5305524!16s%2Fm%2F0b73nwt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "11:00",
                 "heure_de_fin": "13:00"
@@ -514,11 +527,11 @@ const PLANNING = {
                     "target": "https://www.google.com/maps/place/Mythenquai+21+Parking/@47.360617,8.530977,17z/data=!4m9!1m2!2m1!1sHafendamm+Enge+!3m5!1s0x479009fdb212ed13:0x120be27a09bc6119!8m2!3d47.360617!4d8.5357406!16s%2Fg%2F11gd67v5q4?entry=ttu",
                     "text": "Hafendamm Enge (2CHF pour 4h, max 4h)"
                 },
-                "parking_alternatif": {
+                "alternative": {
                     "target": "https://www.google.com/maps/place/Parkhaus+Urania/@47.3740073,8.536067,16z/data=!3m1!4b1!4m6!3m5!1s0x47900a07a0e69ae9:0x66986d53fe4febe8!8m2!3d47.3740038!4d8.5409379!16s%2Fg%2F12hkx4y6t?entry=ttu",
                     "text": "Parkhaus Urania (45 CHF pour la journée, sinon 4CHF pour la 1ère heure puis 5 CHF par heure)",
                     "visite_alternative": "https://footpathapp.com/routes/77993274-0f5c-4397-969b-a1838b63bfd7",
-                    "desc": "4.25km ~ 2h"
+                    "description": "4.25km ~ 2h"
                 },
                 "lien": {
                     "target": "https://footpathapp.com/routes/02217c81-0187-40b8-8cd9-8c4601fa1e4c",
@@ -532,7 +545,10 @@ const PLANNING = {
                 "titre": "Quartier Ouest",
                 "details_key": "k",
                 "description": "2km ~ 1h",
-                "parking": {},
+                "parking": {
+                    "target": "",
+                    "text": "Pleins de parkings dans le quartier"
+                },
                 "lien": {
                     "target": "https://footpathapp.com/routes/54d470a4-8782-4b09-a591-7bed862adb3e",
                     "text": "<i class='fa-solid fa-route'></i>"
@@ -583,7 +599,10 @@ const PLANNING = {
                 "details_key": "",
                 "description": "",
                 "parking": {},
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Monte+Diggelmann/@47.3932476,8.5420795,15.54z/data=!4m6!3m5!1s0x479aa09d75d8ba8f:0x2cb79f95aa652fc3!8m2!3d47.393236!4d8.5495729!16s%2Fg%2F11dxcgt152?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
@@ -990,7 +1009,7 @@ const CAMPING = {
         "ville": "Zurich",
         "adresse": "Maurholz 1 8124 Maur",
         "telephone": "+41 44 980 02 66",
-        "point_gps": "https://www.google.com/maps/place/Camping+Le+Solitaire+du+Lac/@45.8580209,6.0704778,11.46z/data=!4m10!3m9!1s0x478b9110341002db:0x3938edde723493f6!5m3!1s2024-08-13!4m1!1i2!8m2!3d45.840684!4d6.164681!16s%2Fg%2F1tcydc3m?entry=ttu",
+        "point_gps": "https://www.google.com/maps/place/Campingplatz+Maurholz/@47.3617331,8.570805,15167m/data=!3m1!1e3!4m9!3m8!1s0x479aa40ad3d247df:0x7c2b2d5dc3209994!5m2!4m1!1i2!8m2!3d47.3557732!4d8.6586209!16s%2Fg%2F1tm28nc8?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
         "total": 66.16,
         "paye": 0,
         "reste_a_payer": 66.16,
@@ -1214,6 +1233,7 @@ const ITINERAIRES = {
         "Opernhaus Zürich",
     ],
     "k": [
+        "<a href='https://www.google.com/maps/place/Bakery+Bakery/@47.3890286,8.5189202,16.58z/data=!4m6!3m5!1s0x47900b1a5b2ae71d:0xb2a84c5eb66d8318!8m2!3d47.3898995!4d8.5212287!16s%2Fg%2F11kjn8vt00?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D' target='_blank'>Bakery Bakery</a>",
         "Viadukt",
         "Frau Gerolds Garten",
         "Schiffbau",

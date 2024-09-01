@@ -83,11 +83,6 @@ function feedDetailedPage(i, dateObj, campingObj){
                 <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><span class="icon-parking">P</span> <span>${step["parking"]["text"]}</span></a>
             `
         }
-        if (step["point_de_depart"] != ""){
-            step_div.innerHTML += `
-                <div class="step-point_de_depart">${step["point_de_depart"]}</div>
-            `
-        }
         
         if (step["details_key"] !== ""){
             details_keys.push(step["details_key"])
