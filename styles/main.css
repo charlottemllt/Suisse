@@ -156,10 +156,10 @@ html{
                             .step-hours {
                                 font-weight: 400;
                             }
-                        }
 
-                        .step-lien{
-                            color: var(--color3);
+                            .step-lien{
+                                color: var(--color3);
+                            }
                         }
     
                         .step-parking {

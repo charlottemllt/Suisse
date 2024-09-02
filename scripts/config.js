@@ -631,7 +631,10 @@ const PLANNING = {
                 "details_key": "m",
                 "description": "En voiture",
                 "parking": {},
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/dir/Campingplatz+Bruderhofer/Sankt+Georg/M%C3%BCnster+St.+Maria+und+Markus/Basilika+Sankt+Peter+und+Paul,+Eginostra%C3%9Fe+19,+78479+Reichenau,+Germany/@47.6847387,9.0895508,12.54z/data=!3m1!5s0x479af516b8dc85cb:0x22993ec78194064e!4m26!4m25!1m5!1m1!1s0x479af79c3610c0db:0xc15739aa735ef3b4!2m2!1d9.2097609!2d47.6740161!1m5!1m1!1s0x479af515ff367bdf:0xc9524e245bdac305!2m2!1d9.0817676!2d47.6893857!1m5!1m1!1s0x479af53e200472a9:0x3b5c38159ba0cbab!2m2!1d9.0622612!2d47.6990103!1m5!1m1!1s0x479af54970ca30e9:0x9d53332380769bf3!2m2!1d9.0441222!2d47.7068171!3e0?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-route'></i>"
+                },
                 "optionnel": true,
                 "heure_de_debut": "10:00",
                 "heure_de_fin": "10:30"
@@ -640,7 +643,10 @@ const PLANNING = {
                 "titre": "Visite de la ville",
                 "details_key": "n",
                 "description": "1.9km ~ 1h",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parkplatz/@47.6603853,9.1618305,16z/data=!4m6!3m5!1s0x479af6e240e5501f:0xa1eea36648547f68!8m2!3d47.6603855!4d9.1713578!16s%2Fg%2F11c1ws3cjs?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {
                     "target": "https://footpathapp.com/routes/cc2d15d9-9446-431c-9606-6a8d5a1b99e1",
                     "text": "<i class='fa-solid fa-route'></i>"
@@ -653,7 +659,10 @@ const PLANNING = {
                 "titre": "Parc Seeburg",
                 "details_key": "",
                 "description": "Pique-Nique et Baignade",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Seestrasse+13+Parking/@47.6537053,9.1783107,16z/data=!4m6!3m5!1s0x479af718a22d9577:0x9e6e6dcd185f4924!8m2!3d47.6538244!4d9.1786139!16s%2Fg%2F11tjbw37_g?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Seeburgpark/@47.6524139,9.1855332,15.42z/data=!4m6!3m5!1s0x479af73d7414aba5:0x915e02c4be47c0a4!8m2!3d47.6519093!4d9.1856177!16s%2Fg%2F11g86_z9f2?entry=ttu",
                     "text": "<i class='fa-solid fa-location-dot'></i>"
@@ -677,7 +686,10 @@ const PLANNING = {
                 "details_key": "o",
                 "description": "En voiture ou à pied",
                 "parking": {},
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/dir/Grand+Tour+of+Switzerland+Foto-Spot,+9400+Rorschach,+Switzerland/Kornhaus/W%C3%BCrth+Haus+Rorschach,+Churerstrasse+10,+9400+Rorschach,+Switzerland/@47.4800245,9.4855344,17.92z/data=!3m1!5s0x479b1bad8e278473:0xbe5ac81aed459ffb!4m20!4m19!1m5!1m1!1s0x479b1b65097b9825:0x1dd80a6c0d8a321!2m2!1d9.4852309!2d47.4800506!1m5!1m1!1s0x479b1ba352f7a4dd:0xe989fdd0677ba11!2m2!1d9.4917258!2d47.4793384!1m5!1m1!1s0x479b1bad8edf2ca9:0x425d350ddd5a2ba4!2m2!1d9.5065739!2d47.4784375!3e2?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "",
                 "heure_de_fin": ""
@@ -686,8 +698,14 @@ const PLANNING = {
                 "titre": "Visite de Saint-Gall",
                 "details_key": "p",
                 "description": "",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/@47.4219397,9.3740401,3a,89.6y,275.41h,77.84t/data=!3m7!1e1!3m5!1sI58rgcYFqTWBXygiFTLwEQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.158645376472478%26panoid%3DI58rgcYFqTWBXygiFTLwEQ%26yaw%3D275.40568101938857!7i13312!8i6656?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.com/maps/dir/St.+Gallen,+Bahnhofpl.+8b,+9000+St.+Gallen,+Switzerland/Kathedrale+St.+Gallen/Abbey+Library+of+Saint+Gall,+Klosterhof+6D,+9000+St.+Gallen,+Switzerland/Red+square,+Raiffeisenpl.,+9000+St.+Gallen,+Switzerland/Three+ponds,+Bitzistrasse+65,+9011+St.+Gallen,+Switzerland/Wenigerweiher,+St.+Gallen,+Switzerland/@47.4187563,9.3718634,15.17z/data=!4m38!4m37!1m5!1m1!1s0x479b1e4a460fd5ff:0x9a088813cc1bfc58!2m2!1d9.3694759!2d47.4230085!1m5!1m1!1s0x479b1e4c3f68cf65:0xad21eb0c82ad57cb!2m2!1d9.3766121!2d47.423175!1m5!1m1!1s0x479b1e4c45b2cf47:0x363e38457295682a!2m2!1d9.3768663!2d47.4227427!1m5!1m1!1s0x479b1e4b7747134d:0x331fa908ef4f25be!2m2!1d9.3730743!2d47.4220581!1m5!1m1!1s0x479b1e53164f1b5d:0x905857b91c95c38c!2m2!1d9.3832298!2d47.4200042!1m5!1m1!1s0x479b1ee05a3fd017:0xe1a7cea7a141c020!2m2!1d9.414011!2d47.4184887!3e2?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-route'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "",
                 "heure_de_fin": ""
@@ -762,9 +780,15 @@ const PLANNING = {
             {
                 "titre": "Baignade dans le lac",
                 "details_key": "",
-                "description": "7CHF/pers, 5CHF à partir de 16h",
-                "parking": {},
-                "lien": {},
+                "description": "7CHF/pers, 5CHF à partir de 16h (prévoir Pique-Nique ?)",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Crestasee+Parking/@46.8256502,9.324765,16.46z/data=!4m6!3m5!1s0x4784ddf2f79bc217:0x5a314389260f1222!8m2!3d46.8252129!4d9.3233686!16s%2Fg%2F11gk8yhnkw!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Crestasee/@46.8312609,9.3185452,17z/data=!3m1!4b1!4m6!3m5!1s0x4784dca1c5bb3897:0xe974b259040ce2f0!8m2!3d46.8316413!4d9.3213848!16s%2Fm%2F03cp4l6!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "17:00",
                 "heure_de_fin": ""
@@ -814,7 +838,10 @@ const PLANNING = {
                 "titre": "Grotte Militaire",
                 "details_key": "",
                 "description": "",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Aareschlucht+Eingang+Ost/@46.7116734,8.2143252,16.96z/data=!4m15!1m8!3m7!1s0x478f8fbf1b3561a9:0x7c177406d39c024b!2sMeiringen,+Switzerland!3b1!8m2!3d46.7251614!4d8.1909081!16zL20vMDIzMjN2!3m5!1s0x478f8f0d83633e93:0xb3dd46660c9825a1!8m2!3d46.7121727!4d8.2164067!16s%2Fg%2F11kqq9y4kq?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Aareschlucht/@46.7319962,8.1312916,13.17z/data=!4m15!1m8!3m7!1s0x478f8fbf1b3561a9:0x7c177406d39c024b!2sMeiringen,+Switzerland!3b1!8m2!3d46.7251614!4d8.1909081!16zL20vMDIzMjN2!3m5!1s0x478f8f018625b21f:0x6bc0f90b56e9ba0e!8m2!3d46.7192366!4d8.2122009!16s%2Fm%2F0h3xs_f?entry=ttu",
                     "text": "<i class='fa-solid fa-location-dot'></i>"
@@ -838,7 +865,10 @@ const PLANNING = {
                 "details_key": "",
                 "description": "+ Staubbach falls",
                 "parking": {},
-                "lien": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Staubbach+Falls/@46.5896455,7.8949935,15z/data=!3m1!4b1!4m6!3m5!1s0x478fa04b16ad435f:0x12a1415bd82e8786!8m2!3d46.5896318!4d7.9052932!16zL20vMDNzOTYx?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
                 "heure_de_debut": "18:00",
                 "heure_de_fin": "19:00"
@@ -858,7 +888,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.samfaitvoyager.com/randonnees-suisse/",
-                    "text": "<i class='fa-solid fa-person-hikin'></i>"
+                    "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "9:00",
