@@ -290,10 +290,21 @@ function createPlanning(){
         let day_div = document.createElement("div")
         day_div.id = `day_${i+1}`
         day_div.classList = ["day"]
-        day_div.innerHTML = `Jour ${i+1} <span class="date">(${date})</span> : ${PLANNING[date]["ville_de_depart"]}`
+        day_div.innerHTML = ""
+
+        if (PLANNING[date]["birthday"]){
+            day_div.innerHTML += '<i class="fa-solid fa-cake-candles"></i>'
+        }
+
+        day_div.innerHTML += `Jour ${i+1} <span class="date">(${date})</span> : ${PLANNING[date]["ville_de_depart"]}`
         if (PLANNING[date]["ville_d_arrivee"] != ""){
             day_div.innerHTML += `<i class="fa-solid fa-chevron-right"></i>${PLANNING[date]["ville_d_arrivee"]}`
         }
+
+        if (PLANNING[date]["birthday"]){
+            day_div.innerHTML += '<i class="fa-solid fa-cake-candles"></i>'
+        }
+
         content_planning.appendChild(day_div);
 
         let id_div = `day_${i+1}`

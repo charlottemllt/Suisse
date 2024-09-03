@@ -412,6 +412,7 @@ const PLANNING = {
         "ville_de_depart": "Lucerne",
         "ville_d_arrivee": "",
         "date_text": "Jeudi 12 Septembre",
+        "birthday": true,
         "planning": [
             {
                 "titre": "Ascenseur du Hammetschwand",
