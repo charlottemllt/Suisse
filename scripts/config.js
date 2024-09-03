@@ -302,6 +302,29 @@ const PLANNING = {
         "date_text": "Mercredi 11 Septembre",
         "planning": [
             {
+                "titre": "Nombre de places disponibles dans les parkings à Berne",
+                "details_key": "",
+                "description": "",
+                "parking": {
+                    "target": "https://www.parking-bern.ch/f/",
+                    "text": ""
+                },
+                "lien": {},
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
+                "titre": "",
+                "details_key": "",
+                "description": "",
+                "parking": {},
+                "lien": {},
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Colline du Gurten (via funiculaire)",
                 "details_key": "",
                 "description": "Profiter de la vue",
@@ -427,6 +450,19 @@ const PLANNING = {
                 "heure_de_fin": "15:00"
             },
             {
+                "titre": "Visite de la ville (parking alternatif)",
+                "details_key": "",
+                "description": "(rajoute 2km à la visite)",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Baselstrasse+61A,+6003+Luzern,+Suisse/@47.0531669,8.2905478,17z/data=!3m1!4b1!4m6!3m5!1s0x478ffb72ff1e35a3:0x633ad9a5a50f18ee!8m2!3d47.0531633!4d8.2931227!16s%2Fg%2F11cs60_xpd?entry=ttu",
+                    "text": ""
+                },
+                "lien": {},
+                "optionnel": true,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Boire un verre en terrasse le long de la Reuss",
                 "details_key": "",
                 "description": "",
@@ -527,12 +563,6 @@ const PLANNING = {
                     "target": "https://www.google.com/maps/place/Mythenquai+21+Parking/@47.360617,8.530977,17z/data=!4m9!1m2!2m1!1sHafendamm+Enge+!3m5!1s0x479009fdb212ed13:0x120be27a09bc6119!8m2!3d47.360617!4d8.5357406!16s%2Fg%2F11gd67v5q4?entry=ttu",
                     "text": "Hafendamm Enge (2CHF pour 4h, max 4h)"
                 },
-                "alternative": {
-                    "target": "https://www.google.com/maps/place/Parkhaus+Urania/@47.3740073,8.536067,16z/data=!3m1!4b1!4m6!3m5!1s0x47900a07a0e69ae9:0x66986d53fe4febe8!8m2!3d47.3740038!4d8.5409379!16s%2Fg%2F12hkx4y6t?entry=ttu",
-                    "text": "Parkhaus Urania (45 CHF pour la journée, sinon 4CHF pour la 1ère heure puis 5 CHF par heure)",
-                    "visite_alternative": "https://footpathapp.com/routes/77993274-0f5c-4397-969b-a1838b63bfd7",
-                    "description": "4.25km ~ 2h"
-                },
                 "lien": {
                     "target": "https://footpathapp.com/routes/02217c81-0187-40b8-8cd9-8c4601fa1e4c",
                     "text": "<i class='fa-solid fa-route'></i>"
@@ -540,6 +570,22 @@ const PLANNING = {
                 "optionnel": false,
                 "heure_de_debut": "14:00",
                 "heure_de_fin": "17:30"
+            },
+            {
+                "titre": "Visite de la ville (alternative)",
+                "details_key": "",
+                "description": "4.25km ~ 2h",
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Parkhaus+Urania/@47.3740073,8.536067,16z/data=!3m1!4b1!4m6!3m5!1s0x47900a07a0e69ae9:0x66986d53fe4febe8!8m2!3d47.3740038!4d8.5409379!16s%2Fg%2F12hkx4y6t?entry=ttu",
+                    "text": "Parkhaus Urania (45 CHF pour la journée, sinon 4CHF pour la 1ère heure puis 5 CHF par heure)"
+                },
+                "lien": {
+                    "target": "https://footpathapp.com/routes/77993274-0f5c-4397-969b-a1838b63bfd7",
+                    "text": "<i class='fa-solid fa-route'></i>"
+                },
+                "optionnel": true,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
             },
             {
                 "titre": "Quartier Ouest",
@@ -885,9 +931,12 @@ const PLANNING = {
                 "titre": "Randonnée + Pique-Nique",
                 "details_key": "",
                 "description": "6.3km ~ 4h",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Habkern,Lombachalp-Roteschwand/@46.7441888,7.9076935,80m/data=!3m1!1e3!4m6!3m5!1s0x478fbcf505b8af59:0xa729f2567146ea6e!8m2!3d46.744355!4d7.907552!16s%2Fg%2F1ptw49zsd!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "8 CHF la journée"
+                },
                 "lien": {
-                    "target": "https://www.samfaitvoyager.com/randonnees-suisse/",
+                    "target": "https://footpathapp.com/routes/d9aeb9bb-e461-4dde-b803-423646007f0b",
                     "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
@@ -915,17 +964,17 @@ const PLANNING = {
             {
                 "titre": "Randonnée et baignade",
                 "details_key": "",
-                "description": "Le Pic Chaussy - Canton de Vaud, 7km ~ 4h",
+                "description": "Le Pic Chaussy - Canton de Vaud, 10.5km ~ 6h",
                 "parking": {
-                    "target": "https://www.google.fr/maps/place/Parking+Lioson+d%E2%80%99en+Bas/@46.3905098,7.1192715,15.59z/data=!4m6!3m5!1s0x478e9316c957f6bf:0xf4617abfc31eed90!8m2!3d46.3921561!4d7.1178562!16s%2Fg%2F11f89lgr27?coh=164777&entry=tt&shorturl=1",
+                    "target": "https://www.google.fr/maps/place/Parking+Des+Mosses/@46.3971197,7.0990658,332m/data=!3m1!1e3!4m6!3m5!1s0x478e930dd8359fd3:0x7a340ff376c6ab7c!8m2!3d46.3969862!4d7.1017193!16s%2Fg%2F11gf9gg6jh!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
                     "text": ""
                 },
                 "lien": {
-                    "target": "https://www.samfaitvoyager.com/randonnees-suisse/",
+                    "target": "https://footpathapp.com/routes/45683b8a-da36-4693-ba69-c16d9e20f405",
                     "text": "<i class='fa-solid fa-person-hiking'></i>"
                 },
                 "optionnel": false,
-                "heure_de_debut": "10:00",
+                "heure_de_debut": "9:00",
                 "heure_de_fin": "15:00"
             },
             {
@@ -1105,16 +1154,16 @@ const CAMPING = {
         "heure_arrivee_max": "17h"
     },
     "18/09": {
-        "nom": "Pas réservé",
+        "nom": "Camping Clos de la George",
         "ville": "Ormont-Dessous",
-        "adresse": "",
-        "telephone": "",
-        "point_gps": "",
+        "adresse": "Les Ecots 3 - 1853 Yvorne",
+        "telephone": "+41244665828",
+        "point_gps": "https://www.google.com/maps/place/Camping+Clos+de+la+George+SA/@46.3471285,6.9377665,16.63z/data=!4m6!3m5!1s0x478e99d5ea2b0de9:0x7e84afc4f26a1a31!8m2!3d46.3467018!4d6.9427765!16s%2Fg%2F1tdr72ks?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
         "total": 0,
         "paye": 0,
         "reste_a_payer": 0,
         "monnaie": "CHF",
-        "site": "",
+        "site": "https://www.closdelageorge.ch/",
         "heure_arrivee_min": "",
         "heure_arrivee_max": ""
     },

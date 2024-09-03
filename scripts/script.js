@@ -5,7 +5,6 @@ function feedDetailedPage(i, dateObj, campingObj){
 
     let title_div = document.createElement("div")
     title_div.classList = ["title"]
-    // title_div.innerHTML = `Jour ${i+1}: ${dateObj["ville_de_depart"]} -> ${dateObj["ville_d_arrivee"]}`
     title_div.innerHTML = `<div class="title-text">Jour ${i+1} : ${dateObj["ville_de_depart"]}</div>`
     if (dateObj["ville_d_arrivee"] != ""){
         title_div.innerHTML = `
@@ -79,9 +78,17 @@ function feedDetailedPage(i, dateObj, campingObj){
             `
         }
         if (Object.keys(step["parking"]).length != 0){
-            step_div.innerHTML += `
-                <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><span class="icon-parking">P</span> <span>${step["parking"]["text"]}</span></a>
-            `
+            if (step["parking"]["target"] !== ""){
+                step_div.innerHTML += `
+                    <a href=${step["parking"]["target"]} target="_blank" class="step-parking"><span class="icon-parking">P</span> <span>${step["parking"]["text"]}</span></a>
+                `
+            }
+            else{
+                step_div.innerHTML += `
+                    <span class="step-parking"><span class="icon-parking">P</span> <span>${step["parking"]["text"]}</span></span>
+                `
+            }
+            
         }
         
         if (step["details_key"] !== ""){
@@ -332,6 +339,24 @@ function customizePages(){
         </a>
     `
     content_div.appendChild(div_tente)
+
+    let div_gsheet = document.createElement("div")
+    div_gsheet.classList = ["div_gsheet"]
+    div_gsheet.innerHTML = `
+        <a href='https://docs.google.com/spreadsheets/d/1sYkcNHo_beqbK_xo5Xh_ucjI-T6RFpuT7syczXMCVqk/edit?gid=0#gid=0' target='_blank' class="gsheet">
+            <div class="container-gsheet">
+                <div class="gsheet-table">
+                    <div class="gsheet-cell"></div>
+                    <div class="gsheet-cell"></div>
+                    <div class="gsheet-cell"></div>
+                    <div class="gsheet-cell"></div>
+                    <div class="gsheet-cell"></div>
+                    <div class="gsheet-cell"></div>
+                </div>
+            </div>
+        </a>
+    `
+    content_div.appendChild(div_gsheet)
 }
 
 
