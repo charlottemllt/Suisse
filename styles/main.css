@@ -162,6 +162,10 @@ html{
                                 color: var(--color3);
                             }
                         }
+
+                        .step-description{
+                            text-align: center;
+                        }
     
                         .step-parking {
                             display: flex;
