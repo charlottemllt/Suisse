@@ -135,6 +135,7 @@ html{
                     overflow-y: auto;
                     scrollbar-width: none;
                     flex: 1;
+                    width: 90%;
 
                     .step {
                         display: flex;
