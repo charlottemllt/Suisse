@@ -396,6 +396,19 @@ const PLANNING = {
                 "heure_de_fin": "17:30"
             },
             {
+                "titre": "UNESCO Biosphäre Entlebuch",
+                "details_key": "",
+                "description": "Je sais pas si on peut avoir un super point de vue, mais on peut tenter",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/UNESCO+Biosph%C3%A4re+Entlebuch/@46.9592205,8.0252291,18z/data=!4m6!3m5!1s0x478fc1e9dd2d6eed:0x211a117df2dce259!8m2!3d46.9592167!4d8.0252276!16s%2Fm%2F04f2dxh?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Route vers Lucerne",
                 "details_key": "",
                 "description": "",
@@ -603,6 +616,22 @@ const PLANNING = {
                 "optionnel": false,
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "16:30"
+            },
+            {
+                "titre": "Loorenkopf",
+                "details_key": "",
+                "description": "Point de vue, si possible au coucher du soleil",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Parkplatz+Loorenkopf/@47.3685131,8.5969542,16.62z/data=!4m6!3m5!1s0x479aa12e1d2d6e37:0xe1a229941bdaa82c!8m2!3d47.3676733!4d8.6014302!16s%2Fg%2F11ggw0bt4v?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Loorenkopf/@47.3698083,8.5972995,17.67z/data=!4m6!3m5!1s0x479aa12f00281965:0xcb527bfb665f57ab!8m2!3d47.3698204!4d8.5989335!16s%2Fm%2F04yf9nx?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
             }
         ],
         "baignade": true
@@ -859,6 +888,19 @@ const PLANNING = {
                 "heure_de_fin": "11:00"
             },
             {
+                "titre": "Pont du Diable",
+                "details_key": "",
+                "description": "",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Pont+du+Diable/@46.644842,8.5716269,3140m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4784db888bc95ac3:0x51429140cb7a48a2!2sFlims,+Suisse!3b1!8m2!3d46.8366348!4d9.2846923!16zL20vMDl4MHo1!3m5!1s0x478571e88a722f61:0xb6dc0345655ad006!8m2!3d46.6472711!4d8.5903366!16s%2Fm%2F03qj4mv?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": true,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Glacier et Hôtel Belvedère, avec Pique-Nique",
                 "details_key": "",
                 "description": "ne prennent pas la CB ?",
@@ -945,6 +987,77 @@ const PLANNING = {
                 "heure_de_fin": "13:00"
             },
             {
+                "titre": "Chutes de Giessbach",
+                "details_key": "",
+                "description": "",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Naturpark+Giessbach+Parking/@46.734195,8.0236722,604m/data=!3m1!1e3!4m14!1m7!3m6!1s0x478f97013239a331:0x7676512cca5979b1!2sGiessbachf%C3%A4lle!8m2!3d46.7335303!4d8.0238695!16s%2Fg%2F12360213!3m5!1s0x478f97fac7f8148d:0xdcfc3f5e42588484!8m2!3d46.7348861!4d8.0275029!16s%2Fg%2F11v67hljyb?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Giessbachf%C3%A4lle/@46.734195,8.0236722,604m/data=!3m1!1e3!4m6!3m5!1s0x478f97013239a331:0x7676512cca5979b1!8m2!3d46.7335303!4d8.0238695!16s%2Fg%2F12360213?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
+                "titre": "Iseltwald",
+                "details_key": "",
+                "description": "",
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/3807+Iseltwald,+Suisse/@46.7009254,7.9426631,12475m/data=!3m2!1e3!4b1!4m6!3m5!1s0x478fbd541724c75b:0xdafefc9fa4a5f96a!8m2!3d46.7115858!4d7.9642999!16zL20vMDMwaDZz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Peu de places"
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/3807+Iseltwald,+Suisse/@46.7009254,7.9426631,12475m/data=!3m2!1e3!4b1!4m6!3m5!1s0x478fbd541724c75b:0xdafefc9fa4a5f96a!8m2!3d46.7115858!4d7.9642999!16zL20vMDMwaDZz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
+                "titre": "Ruine Weissenau",
+                "details_key": "",
+                "description": "",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Ruine+Weissenau/@46.67019,7.83251,151m/data=!3m1!1e3!4m6!3m5!1s0x478fa45ec805ae0b:0xbfebd34e1895d7ca!8m2!3d46.6701028!4d7.8321944!16s%2Fm%2F0swn56z?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": true,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
+                "titre": "Yash Chopra Statue",
+                "details_key": "",
+                "description": "Dans Interlaken",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Yash+Chopra+Statue/@46.6871297,7.8533431,15.71z/data=!4m6!3m5!1s0x478fa4993f46ca17:0xcd0e099a4bf72ee!8m2!3d46.6877282!4d7.8587457!16s%2Fg%2F11c0vy8x4p?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
+                "titre": "Funky Chocolate Club",
+                "details_key": "",
+                "description": "Dans Interlaken",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Funky+Chocolate+Club+Switzerland/@46.6859741,7.8523545,17z/data=!3m1!4b1!4m6!3m5!1s0x478fa49bb25b25df:0x5a75ab98d8fa4177!8m2!3d46.6859704!4d7.8549294!16s%2Fg%2F11b76fhcpq?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
+            },
+            {
                 "titre": "Route vers Ormont-Dessous",
                 "details_key": "",
                 "description": "",
@@ -979,24 +1092,46 @@ const PLANNING = {
                 "heure_de_fin": "15:00"
             },
             {
-                "titre": "Route vers Gruyères",
+                "titre": "Château de Chillon",
                 "details_key": "",
                 "description": "",
-                "parking": {},
-                "lien": {},
+                "parking": {
+                    "target": "https://www.google.fr/maps/place/Parking+du+ch%C3%A2teau+de+Chillon/@46.413898,6.9274713,394m/data=!3m1!1e3!4m14!1m7!3m6!1s0x478e9a5baedd65c3:0x22994259155c8307!2sCh%C3%A2teau+de+Chillon!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6!3m5!1s0x478e9b6e1c0070a1:0x171e8fbc22c03092!8m2!3d46.412744!4d6.9299071!16s%2Fg%2F11hzqw5x7p?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "Parking du château de Chillon"
+                },
+                "lien": {
+                    "target": "https://www.google.fr/maps/place/Ch%C3%A2teau+de+Chillon/@46.4070889,6.8894482,13364m/data=!3m1!1e3!4m6!3m5!1s0x478e9a5baedd65c3:0x22994259155c8307!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                },
                 "optionnel": false,
-                "heure_de_debut": "15:00",
-                "heure_de_fin": "16:00"
+                "heure_de_debut": "",
+                "heure_de_fin": ""
             },
             {
                 "titre": "Visite de Gruyères",
                 "details_key": "",
                 "description": "",
-                "parking": {},
+                "parking": {
+                    "target": "https://www.google.com/maps/place/Gruy%C3%A8res+-+Parking+P1+-+Chavonne/@46.5820757,7.0790342,17.21z/data=!4m6!3m5!1s0x478e8991f8e3e8f9:0xedec4d62e75f1582!8m2!3d46.5820197!4d7.0803643!16s%2Fg%2F11c2pfy_z6?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": ""
+                },
                 "lien": {},
                 "optionnel": false,
                 "heure_de_debut": "16:00",
                 "heure_de_fin": "17:00"
+            },
+            {
+                "titre": "Petit goûter",
+                "details_key": "",
+                "description": "Meringue à la double crème ~ 13 CHF",
+                "parking": {},
+                "lien": {
+                    "target": "https://www.google.com/maps/place/Chalet+de+Gruy%C3%A8res/@46.5819926,7.0797346,18.37z/data=!4m6!3m5!1s0x478e898d883299cb:0x822b21e4a9b6174f!8m2!3d46.5818127!4d7.080984!16s%2Fg%2F1tfvg3lg?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+                    "text": "<i class='fa-solid fa-cookie-bite'></i>"
+                },
+                "optionnel": false,
+                "heure_de_debut": "",
+                "heure_de_fin": ""
             },
             {
                 "titre": "Route vers le camping",
