@@ -40,7 +40,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Basilique+de+la+Visitation/@45.8922037,6.1228313,17z/data=!3m1!4b1!4m6!3m5!1s0x478b8ffd60ae771b:0x85a1cdfa100906cc!8m2!3d45.8922001!4d6.1277022!16s%2Fm%2F0k5h3hr?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-church'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "17:30",
@@ -110,7 +110,7 @@ const PLANNING = {
                 },  
                 "lien": {
                     "target": "https://www.google.com/maps/place/Bains+des+P%C3%A2quis/@46.2103724,6.1542965,17z/data=!4m6!3m5!1s0x478c6525f98521ab:0x35d4551d2b7c350a!8m2!3d46.2103687!4d6.1541911!16s%2Fg%2F120_f_rt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-bridge-water'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "12:00",
@@ -126,7 +126,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Parc+des+Eaux-Vives/@46.2090712,6.1650779,17z/data=!3m1!4b1!4m6!3m5!1s0x478c6574030df13f:0xfb25fbb30ea9cb3f!8m2!3d46.2090675!4d6.1676528!16s%2Fg%2F122s8w9g?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-utensils'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "12:30",
@@ -261,7 +261,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Zone+de+libert%C3%A9+pour+les+chiens+avec+baignade/@46.9956914,6.9529507,17.83z/data=!4m14!1m7!3m6!1s0x478e0b98bc75ee13:0xb7f4f256cd2aa6e5!2sPort+Nid-du-Cr%C3%B4!8m2!3d46.9958428!4d6.949994!16s%2Fg%2F11hdj_hbn4!3m5!1s0x478e0b6f0f9781af:0x5d24e53db632112f!8m2!3d46.9965351!4d6.9549207!16s%2Fg%2F11svxk8tjd?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-person-swimming'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "12:00",
@@ -277,7 +277,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Jardin+botanique,+2000+Neuch%C3%A2tel,+Suisse/@47.0001384,6.9320452,17z/data=!3m1!4b1!4m6!3m5!1s0x478e0a1ea81443d1:0x4bd6941de6b133c6!8m2!3d47.0001348!4d6.9346201!16s%2Fg%2F1td5klkl?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-tree'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "15:00",
@@ -347,7 +347,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.com/maps/place/Bernisches+Historisches+Museum+%2F+Einstein+Museum/@46.9441815,7.4431599,16.46z/data=!4m15!1m8!3m7!1s0x478e39c0d43a1b77:0xcb555ffe0457659a!2sBern,+Switzerland!3b1!8m2!3d46.9479739!4d7.4474468!16zL20vMGQ2bng!3m5!1s0x478e39c581192583:0x69969cc6bb933be9!8m2!3d46.9431112!4d7.4492833!16s%2Fm%2F03y9gtj?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-monument'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "11:30",
@@ -402,7 +402,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.com/maps/place/UNESCO+Biosph%C3%A4re+Entlebuch/@46.9592205,8.0252291,18z/data=!4m6!3m5!1s0x478fc1e9dd2d6eed:0x211a117df2dce259!8m2!3d46.9592167!4d8.0252276!16s%2Fm%2F04f2dxh?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-mountain-sun'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -437,7 +437,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Ascenseur+du+Hammetschwand/@47.0060874,8.3923034,14.83z/data=!4m6!3m5!1s0x478ff839c7b45555:0x881fff8971892d9!8m2!3d47.0013436!4d8.3963211!16zL20vMGNqanFz!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-elevator'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "10:00",
@@ -496,7 +496,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Lion+Monument/@47.0584264,8.3062872,17z/data=!4m6!3m5!1s0x478ffb9b5705eb8b:0x627afecb728fc384!8m2!3d47.0584263!4d8.3109151!16s%2Fm%2F03qfw5r?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-monument'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "15:30",
@@ -512,7 +512,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Meggenhorn/@47.0352557,8.3536243,17z/data=!3m1!4b1!4m6!3m5!1s0x478ff96ff47bccd9:0xb28b207cc4300e03!8m2!3d47.0352521!4d8.3561992!16s%2Fm%2F025zh1n?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-brands fa-fort-awesome'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "16:15",
@@ -547,7 +547,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Chinagarten+Z%C3%BCrich/@47.3547089,8.5507203,18.12z/data=!4m15!1m8!3m7!1s0x47900b9749bea219:0xe66e8df1e71fdc03!2sZ%C3%BCrich,+Switzerland!3b1!8m2!3d47.3768866!4d8.541694!16zL20vMDg5NjY!3m5!1s0x479aa74575ec8049:0xc567c3f4f9cdb369!8m2!3d47.3548182!4d8.5520921!16s%2Fm%2F05p4570?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-tree'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "10:00",
@@ -563,7 +563,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Rieterpark/@47.3575344,8.5181904,14.08z/data=!4m6!3m5!1s0x479009fb4b73d5c7:0x42bb790cf1826c22!8m2!3d47.3578898!4d8.5305524!16s%2Fm%2F0b73nwt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-tree'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "11:00",
@@ -627,7 +627,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Loorenkopf/@47.3698083,8.5972995,17.67z/data=!4m6!3m5!1s0x479aa12f00281965:0xcb527bfb665f57ab!8m2!3d47.3698204!4d8.5989335!16s%2Fm%2F04yf9nx?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-tower-observation'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -677,7 +677,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.com/maps/place/Monte+Diggelmann/@47.3932476,8.5420795,15.54z/data=!4m6!3m5!1s0x479aa09d75d8ba8f:0x2cb79f95aa652fc3!8m2!3d47.393236!4d8.5495729!16s%2Fg%2F11dxcgt152?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-mountain-sun'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "16:00",
@@ -741,7 +741,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Seeburgpark/@47.6524139,9.1855332,15.42z/data=!4m6!3m5!1s0x479af73d7414aba5:0x915e02c4be47c0a4!8m2!3d47.6519093!4d9.1856177!16s%2Fg%2F11g86_z9f2?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-tree'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "12:00",
@@ -764,7 +764,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.com/maps/dir/Grand+Tour+of+Switzerland+Foto-Spot,+9400+Rorschach,+Switzerland/Kornhaus/W%C3%BCrth+Haus+Rorschach,+Churerstrasse+10,+9400+Rorschach,+Switzerland/@47.4800245,9.4855344,17.92z/data=!3m1!5s0x479b1bad8e278473:0xbe5ac81aed459ffb!4m20!4m19!1m5!1m1!1s0x479b1b65097b9825:0x1dd80a6c0d8a321!2m2!1d9.4852309!2d47.4800506!1m5!1m1!1s0x479b1ba352f7a4dd:0xe989fdd0677ba11!2m2!1d9.4917258!2d47.4793384!1m5!1m1!1s0x479b1bad8edf2ca9:0x425d350ddd5a2ba4!2m2!1d9.5065739!2d47.4784375!3e2?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-city'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -827,7 +827,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Alte+Rheinbr%C3%BCcke/@47.1226275,9.0781082,9.42z/data=!4m6!3m5!1s0x479b316206d81f75:0x8be2a6f3511c3d35!8m2!3d47.1324523!4d9.5116695!16s%2Fg%2F1229cybl?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-bridge'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "15:00",
@@ -863,7 +863,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Crestasee/@46.8312609,9.3185452,17z/data=!3m1!4b1!4m6!3m5!1s0x4784dca1c5bb3897:0xe974b259040ce2f0!8m2!3d46.8316413!4d9.3213848!16s%2Fm%2F03cp4l6!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-person-swimming'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "17:00",
@@ -894,7 +894,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Pont+du+Diable/@46.644842,8.5716269,3140m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4784db888bc95ac3:0x51429140cb7a48a2!2sFlims,+Suisse!3b1!8m2!3d46.8366348!4d9.2846923!16zL20vMDl4MHo1!3m5!1s0x478571e88a722f61:0xb6dc0345655ad006!8m2!3d46.6472711!4d8.5903366!16s%2Fm%2F03qj4mv?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-bridge-water'></i>"
                 },
                 "optionnel": true,
                 "heure_de_debut": "",
@@ -907,7 +907,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.com/maps/place/Rhone+Gletscher+Blick/@46.5790238,8.3853583,15.57z/data=!4m14!1m7!3m6!1s0x47857eb83e0b1e7f:0xcd705255c604d8b4!2zQmVsdsOpZMOocmUgR2xhY2llciBkdSBSaMO0bmU!8m2!3d46.5771956!4d8.3877971!16s%2Fg%2F1tfq3j8y!3m5!1s0x47857f7addbdf8dd:0x84c3a2946b01138e!8m2!3d46.5788812!4d8.3883049!16s%2Fg%2F11q8rtyrs9?hl=fr&entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-hotel'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "11:00",
@@ -933,7 +933,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.com/maps/place/Aareschlucht/@46.7319962,8.1312916,13.17z/data=!4m15!1m8!3m7!1s0x478f8fbf1b3561a9:0x7c177406d39c024b!2sMeiringen,+Switzerland!3b1!8m2!3d46.7251614!4d8.1909081!16zL20vMDIzMjN2!3m5!1s0x478f8f018625b21f:0x6bc0f90b56e9ba0e!8m2!3d46.7192366!4d8.2122009!16s%2Fm%2F0h3xs_f?entry=ttu",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-icicles'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "14:00",
@@ -1012,7 +1012,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/3807+Iseltwald,+Suisse/@46.7009254,7.9426631,12475m/data=!3m2!1e3!4b1!4m6!3m5!1s0x478fbd541724c75b:0xdafefc9fa4a5f96a!8m2!3d46.7115858!4d7.9642999!16zL20vMDMwaDZz?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-city'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -1038,7 +1038,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Yash+Chopra+Statue/@46.6871297,7.8533431,15.71z/data=!4m6!3m5!1s0x478fa4993f46ca17:0xcd0e099a4bf72ee!8m2!3d46.6877282!4d7.8587457!16s%2Fg%2F11c0vy8x4p?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-monument'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -1051,7 +1051,7 @@ const PLANNING = {
                 "parking": {},
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Funky+Chocolate+Club+Switzerland/@46.6859741,7.8523545,17z/data=!3m1!4b1!4m6!3m5!1s0x478fa49bb25b25df:0x5a75ab98d8fa4177!8m2!3d46.6859704!4d7.8549294!16s%2Fg%2F11b76fhcpq?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-solid fa-shop'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
@@ -1101,7 +1101,7 @@ const PLANNING = {
                 },
                 "lien": {
                     "target": "https://www.google.fr/maps/place/Ch%C3%A2teau+de+Chillon/@46.4070889,6.8894482,13364m/data=!3m1!1e3!4m6!3m5!1s0x478e9a5baedd65c3:0x22994259155c8307!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D",
-                    "text": "<i class='fa-solid fa-location-dot'></i>"
+                    "text": "<i class='fa-brands fa-fort-awesome'></i>"
                 },
                 "optionnel": false,
                 "heure_de_debut": "",
